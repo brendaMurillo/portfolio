@@ -14,7 +14,7 @@ export default function Nav() {
     <header className="sticky top-0 z-10 border-b bg-[var(--c5)]/80 backdrop-blur">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <Link href="/" className="font-semibold tracking-tight">
-          Full Name
+          Brenda Viviana Murillo
         </Link>
         <nav className="flex flex-wrap gap-4 text-sm">
           {links.map((l) => (
