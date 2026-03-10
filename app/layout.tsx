@@ -1,8 +1,9 @@
 import "./globals.css";
 import Nav from "../components/Nav";
+import Container from "../components/Container";
 
 export const metadata = {
-  title: "Brenda Viviana Murillo",
+  title: "Full Name",
   description: "Portfolio website",
 };
 
@@ -11,11 +12,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <Nav />
-        <main className="mx-auto max-w-5xl px-6 py-10">{children}</main>
-        <footer className="border-t">
-          <div className="mx-auto max-w-5xl px-6 py-8 text-sm text-zinc-600">
-            © {new Date().getFullYear()} Brenda Viviana Murillo
-          </div>
+
+        <main className="py-20">
+          <Container>{children}</Container>
+        </main>
+
+        <footer className="divider">
+          <Container>
+            <div className="py-8 text-sm opacity-80">
+              © {new Date().getFullYear()} Full Name
+            </div>
+          </Container>
         </footer>
       </body>
     </html>

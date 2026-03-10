@@ -29,7 +29,6 @@ export default function HomePage() {
             </ButtonLink>
           </div>
         </FadeIn>
-      </div>
 
       <FadeIn delay={0.15}>
         <div className="rounded-2xl border bg-white p-4 shadow-sm">
