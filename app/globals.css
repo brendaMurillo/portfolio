@@ -125,9 +125,9 @@ main {
 
 .hero-title {
   margin: 0;
-  font-size: clamp(4rem, 11vw, 8.5rem);
-  line-height: 0.9;
-  letter-spacing: -0.06em;
+  font-size: clamp(2.9rem, 6.5vw, 4.75rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
   font-weight: 800;
   text-transform: uppercase;
   color: var(--text);
@@ -217,4 +217,17 @@ main {
     font-size: 0.95rem;
     line-height: 1.7;
   }
+}
+.profile-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 16px;
+  max-width: 260px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
