@@ -4,7 +4,7 @@ export type BlogPost = {
   excerpt: string;
   category: string;
   date: string;
-  readTime: string;
+  readTime?: string;
   content: string[];
 };
 

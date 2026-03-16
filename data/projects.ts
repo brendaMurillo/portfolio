@@ -8,6 +8,7 @@ export type Project = {
   github?: string;
   status: "Completed" | "In Progress" | "Planned";
   imageFit?: "contain" | "cover";
+  
 };
 
 export const projects: Project[] = [
