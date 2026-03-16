@@ -16,7 +16,7 @@ export default function Nav() {
       <Container>
         <div className="site-nav">
           <Link href="/" className="site-logo">
-            Full Name
+            Brenda Viviana Murillo
           </Link>
 
           <nav className="site-nav-links">

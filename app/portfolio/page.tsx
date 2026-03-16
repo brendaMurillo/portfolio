@@ -1,36 +1,42 @@
 import Link from "next/link";
-import Image from "next/image";
-import { projects } from "../../lib/projects";
+import { projects } from "../../data/projects";
 
 export default function PortfolioPage() {
   return (
-    <div className="flex flex-col items-center gap-12">
-      <section className="card">
-        <h1 className="text-3xl font-semibold">Portfolio</h1>
+    <div className="page-fade flex flex-col items-center gap-12 py-20">
+      <section className="card max-w-3xl w-full text-center">
+        <h1 className="text-4xl font-semibold">Portfolio</h1>
         <p className="mt-4 opacity-90">
-          Projects rendered dynamically from structured data.
+          A collection of projects highlighting my work in programming,
+  data science, and software development.
         </p>
       </section>
 
-      <div className="grid w-full max-w-4xl gap-6 md:grid-cols-2">
-        {projects.map((p) => (
-          <Link key={p.slug} href={`/portfolio/${p.slug}`} className="card">
-            <Image
-              src={p.image}
-              alt={p.title}
-              width={1200}
-              height={700}
-              className="h-auto w-full rounded-lg"
-            />
-            <h2 className="mt-4 text-xl font-semibold">{p.title}</h2>
-            <p className="mt-2 opacity-90">{p.description}</p>
+      <section className="max-w-6xl w-full grid gap-8 md:grid-cols-2">
+        {projects.map((project) => (
+          <Link
+            key={project.slug}
+            href={`/portfolio/${project.slug}`}
+            className="card block transition hover:-translate-y-1"
+          >
+            <div className="portfolio-image-frame">
+              <img
+                src={project.image}
+                alt={project.title}
+                className={
+                  project.imageFit === "contain"
+                    ? "portfolio-image portfolio-image-contain"
+                    : "portfolio-image portfolio-image-cover"
+                }
+              />
+            </div>
 
-            <p className="mt-4 text-sm opacity-90">
-              Tech: {p.techStack.join(", ")}
-            </p>
+            <h2 className="mt-5 text-2xl font-semibold text-center">
+              {project.title}
+            </h2>
           </Link>
         ))}
-      </div>
+      </section>
     </div>
   );
 }

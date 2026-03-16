@@ -212,3 +212,42 @@ main {
     transform: translateY(0);
   }
 }
+.portfolio-image-frame {
+  width: 100%;
+  height: 260px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.portfolio-detail-image-frame {
+  width: 100%;
+  height: 360px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.portfolio-image,
+.portfolio-detail-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  display: block;
+}
+
+.portfolio-image-contain {
+  object-fit: contain;
+}
+
+.portfolio-image-cover {
+  object-fit: cover;
+}
