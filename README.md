@@ -1,3 +1,22 @@
+Tech Stack - 
+
+Next.js (React + TypeScript)
+
+Tailwind CSS
+
+Structured data files for blog and portfolio content
+
+Dynamic routing with Next.js App Router
+
+Deployment - 
+
+The project is deployed on Vercel and connected to GitHub. Every push to the main branch automatically triggers a new production deployment.
+
+Known Limitations - 
+
+Blog posts and project content are stored locally.
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
