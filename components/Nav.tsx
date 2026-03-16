@@ -12,14 +12,14 @@ const links = [
 
 export default function Nav() {
   return (
-    <header className="border-b border-white/10">
+    <header className="site-header">
       <Container>
-        <div className="flex items-center justify-between py-5">
-          <Link href="/" className="text-sm">
+        <div className="site-nav">
+          <Link href="/" className="site-logo">
             Full Name
           </Link>
 
-          <nav className="flex flex-wrap gap-4 text-sm">
+          <nav className="site-nav-links">
             {links.map((l) => (
               <Link key={l.href} href={l.href}>
                 {l.label}
