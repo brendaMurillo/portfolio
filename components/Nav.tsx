@@ -1,3 +1,9 @@
+ //Constants are defined once and reused in multiple pages
+ //reusable navigation bar used across all pages. 
+// client-side routing with Next.js which is dynamic page loading without reloading the entire application. 
+ // It stores navigation links in a structured array and renders them dynamically using .map(). 
+ // It also uses state to control a responsive hamburger menu for mobile devices, allowing users to toggle navigation visibiliity
+ //A state is created inside a component, can change over time, and used for interactivity (buttons, forms, toggles)
  "use client";
 
 import Link from "next/link";

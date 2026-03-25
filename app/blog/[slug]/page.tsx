@@ -1,3 +1,5 @@
+//uses .map() to render all posts and create links containing a unique slug for each entry.
+//uses .find() to retrieve the corresponding post from structured data and display its content dynamically 
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { posts } from "../../../data/posts";

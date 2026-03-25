@@ -1,3 +1,5 @@
+//stores structured content for projects and blog posts, 
+// rendered dynamically using .map() and accessed individually with .find() through dynamic routes like /portfolio/[slug] and /blog/[slug].
 export type BlogPost = {
   slug: string;
   title: string;
