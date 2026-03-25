@@ -1,5 +1,5 @@
 //hold and renders my data, cahngeing some of its content
-// //ex - contect variable is changed t the actual content we see on the websites
+// ex - contect variable is changed t the actual content we see on the websites
 /export type Post = {
   id: string;
   title: string;
