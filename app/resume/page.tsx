@@ -185,6 +185,27 @@ export default function ResumePage() {
               </li>
             </ul>
           </div>
+          <div>
+            <h3 className="text-xl font-medium">UCRL Showcase</h3>
+            <p className="mt-2 opacity-90">
+              Project Presentation 
+            </p>
+            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
+              <li>
+                Presented to 50+ students and faculty about an IoT project. 
+              </li>
+              <li>
+                Demonstrated a smart watering system using ESP32. 
+              </li>
+              <li>
+                Explained real-time data monitoring and control through a web
+                interface.
+              </li>
+              <li>
+                Designed a device that utilizes an API to provide plant identification. 
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </div>

@@ -1,6 +1,11 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 
 export default function HomePage() {
+  const [showSecondFront, setShowSecondFront] = useState(false);
+
   return (
     <div className="page-fade">
       <section className="hero">
@@ -18,17 +23,35 @@ export default function HomePage() {
 
           <p className="hero-description">
             This portfolio highlights selected projects, writing, and work
-            that reflect my experience in computer science while also sharing
-            a bit about me.
+            that reflect my experience in computer science.
           </p>
 
-          <div className="profile-wrapper">
-            <img
-              src="/IMG_1092.jpg"
-              alt="Brenda Viviana Murillo"
-              className="profile-image"
-            />
-          </div>
+          <button
+            type="button"
+            className="photo-stack-button"
+            onClick={() => setShowSecondFront((prev) => !prev)}
+            aria-label="Swap profile photos"
+          >
+            <div className="photo-stack">
+              <img
+                src="/IMG_1092.jpg"
+                alt="Brenda Viviana Murillo"
+                className={`stack-photo stack-photo-main ${
+                  showSecondFront ? "stack-back" : "stack-front"
+                }`}
+              />
+
+              <img
+                src="/presentation.png"
+                alt="Brenda Viviana Murillo presentation photo"
+                className={`stack-photo stack-photo-second ${
+                  showSecondFront ? "stack-front" : "stack-back"
+                }`}
+              />
+            </div>
+          </button>
+
+          <p className="photo-hint">Tap the photo to switch images.</p>
 
           <div className="hero-links">
             <Link href="/about">About</Link>

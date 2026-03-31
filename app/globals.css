@@ -449,3 +449,61 @@ main {
 body {
   overflow-x: hidden;
 }
+
+.photo-stack-button {
+  margin-top: 30px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.photo-stack {
+  position: relative;
+  width: 290px;
+  height: 360px;
+  margin: 0 auto;
+}
+
+.stack-photo {
+  position: absolute;
+  width: 240px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  transition: transform 0.35s ease, opacity 0.35s ease, box-shadow 0.35s ease;
+}
+
+.stack-front {
+  z-index: 2;
+  transform: translate(0, 0) rotate(-1deg) scale(1);
+}
+
+.stack-back {
+  z-index: 1;
+  transform: translate(42px, 20px) rotate(4deg) scale(0.96);
+  opacity: 0.92;
+}
+
+.photo-hint {
+  margin-top: 14px;
+  font-size: 0.9rem;
+  color: var(--text-soft);
+}
+
+@media (max-width: 768px) {
+  .photo-stack {
+    width: 250px;
+    height: 320px;
+  }
+
+  .stack-photo {
+    width: 210px;
+    height: 280px;
+  }
+
+  .stack-back {
+    transform: translate(28px, 16px) rotate(4deg) scale(0.96);
+  }
+}
