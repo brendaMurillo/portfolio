@@ -6,12 +6,8 @@ export default function ResumePage() {
         <p className="mt-4 opacity-90">Brenda Viviana Murillo</p>
 
         <div className="mt-6">
-          <a
-            href="/resume.pdf"
-            download
-            className="underline font-medium"
-          >
-            Download Resume (PDF)
+          <a href="/resume.pdf" download className="underline font-medium">
+            Download Condensed Resume (PDF)
           </a>
         </div>
       </section>
@@ -23,9 +19,11 @@ export default function ResumePage() {
 
         <p className="mt-6 opacity-90 leading-relaxed text-center">
           Computer Science student with experience in programming, database
-          projects, and team-based development. Strong foundation in Java, SQL,
-          JavaScript, and React Native, with growing interests in artificial
-          intelligence, data science, and practical software applications.
+          projects, research, and team-based development. Strong foundation in
+          Java, SQL, JavaScript, and React Native, with growing interests in
+          artificial intelligence, data science, robotics, and practical
+          software applications. Experienced in collaborative project work using
+          shared documents, Discord, and structured planning tools.
         </p>
       </section>
 
@@ -38,14 +36,14 @@ export default function ResumePage() {
           <div>
             <h3 className="text-xl font-medium">Programming Languages</h3>
             <p className="mt-2 opacity-90">
-              C, SQL, Java, JavaScript, React Native, php
+              C, SQL, Python, Java, JavaScript, R, React Native, PHP
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-medium">Developer Tools</h3>
             <p className="mt-2 opacity-90">
-              GitHub, Visual Studio Code
+              GitHub, Visual Studio Code, Discord
             </p>
           </div>
 
@@ -60,7 +58,7 @@ export default function ResumePage() {
             <h3 className="text-xl font-medium">Additional Strengths</h3>
             <p className="mt-2 opacity-90">
               English/Spanish bilingual, teamwork, communication, problem
-              solving
+              solving, technical writing
             </p>
           </div>
         </div>
@@ -124,7 +122,7 @@ export default function ResumePage() {
           </div>
 
           <div>
-            <h3 className="text-xl font-medium">Project Hedgehog</h3>
+            <h3 className="text-xl font-medium">"Project Hedgehog"</h3>
             <p className="mt-2 opacity-90">February 2026 – Present</p>
             <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
               <li>
@@ -134,6 +132,55 @@ export default function ResumePage() {
               <li>
                 Maintain quality scores to support accurate and effective
                 results.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-medium">R for Data Science Project</h3>
+            <p className="mt-2 opacity-90">Ongoing personal project</p>
+            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
+              <li>
+                Actively developing skills in R for data analysis, visualization,
+                and statistical exploration.
+              </li>
+              <li>
+                Working with datasets to practice data cleaning, transformation,
+                and interpretation using R tools and libraries.
+              </li>
+              <li>
+                Strengthening understanding of how R complements Python in data
+                science workflows and analytical tasks.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-medium">Humanoid Robot Research</h3>
+            <p className="mt-2 opacity-90">Collaborative research project</p>
+            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
+              <li>
+                Contribute to a humanoid robotics paper focused on research,
+                technical writing, and project development.
+              </li>
+              <li>
+                Collaborate through shared Word documents and Discord to draft,
+                revise, and organize project ideas.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-medium">MoneyApp</h3>
+            <p className="mt-2 opacity-90">Collaborative software project</p>
+            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
+              <li>
+                Help develop a financial decision-support app that compares debt
+                payoff versus investing.
+              </li>
+              <li>
+                Collaborate using shared documents, Discord, and a Gantt chart
+                to organize development.
               </li>
             </ul>
           </div>
@@ -156,9 +203,7 @@ export default function ResumePage() {
               <li>
                 Added shipping cost functionality through method-based logic.
               </li>
-              <li>
-                Presented the project through an oral walkthrough.
-              </li>
+              <li>Presented the project through an oral walkthrough.</li>
             </ul>
           </div>
 
@@ -172,12 +217,9 @@ export default function ResumePage() {
                 Implemented a database with mock data and displayed products
                 using SQL queries connected through PHP.
               </li>
+              <li>Created a website interface for customer purchasing.</li>
               <li>
-                Created a website interface for customer purchasing.
-              </li>
-              <li>
-                Built an employee dashboard for analytics and inventory
-                updates.
+                Built an employee dashboard for analytics and inventory updates.
               </li>
               <li>
                 Collaborated in a team environment using GitHub for version
@@ -185,24 +227,20 @@ export default function ResumePage() {
               </li>
             </ul>
           </div>
+
           <div>
             <h3 className="text-xl font-medium">UCRL Showcase</h3>
-            <p className="mt-2 opacity-90">
-              Project Presentation 
-            </p>
+            <p className="mt-2 opacity-90">Project Presentation</p>
             <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
-              <li>
-                Presented to 50+ students and faculty about an IoT project. 
-              </li>
-              <li>
-                Demonstrated a smart watering system using ESP32. 
-              </li>
+              <li>Presented to 50+ students and faculty about an IoT project.</li>
+              <li>Demonstrated a smart watering system using ESP32.</li>
               <li>
                 Explained real-time data monitoring and control through a web
                 interface.
               </li>
               <li>
-                Designed a device that utilizes an API to provide plant identification. 
+                Designed a device that utilizes an API to provide plant
+                identification.
               </li>
             </ul>
           </div>

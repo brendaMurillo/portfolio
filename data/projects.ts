@@ -8,7 +8,7 @@ export type Project = {
   github?: string;
   status: "Completed" | "In Progress" | "Planned";
   imageFit?: "contain" | "cover";
-  
+  pdf?: string;
 };
 
 export const projects: Project[] = [
@@ -16,9 +16,9 @@ export const projects: Project[] = [
     slug: "secondary-analysis-research-paper",
     title: "Secondary Analysis Research Paper",
     description:
-      "A research-focused project using exploratory data analysis and basic statistical modeling to support a secondary analysis paper.",
+      "A research-focused project using exploratory data analysis and statistical modeling.",
     longDescription:
-      "In this project, I worked as a researcher performing exploratory data analysis (EDA) and basic statistical modeling to support a secondary analysis research paper. My role involved examining data, identifying patterns and relationships, and helping interpret findings in a way that supported the overall research goals. This project strengthened my interest in data science by combining analytical thinking, data interpretation, and structured written communication.",
+      "In this project, I worked as a researcher performing exploratory data analysis and statistical modeling to support a secondary analysis research paper.",
     image: "/paper.png",
     techStack: ["Statistical Modeling", "Research"],
     github: "",
@@ -29,39 +29,60 @@ export const projects: Project[] = [
     slug: "salvage-reseller",
     title: "Salvage Reseller",
     description:
-      "A database-driven group project with customer purchasing features, employee analytics, and inventory management.",
+      "A database-driven group project with customer purchasing and inventory management.",
     longDescription:
-      "Salvage Reseller was a group final project for Database Design and Implementation. The system used mock data stored in a database and displayed products through SQL queries called in PHP. It also included an employee dashboard with analytics and inventory add, delete, and update functionality. The project was developed collaboratively using GitHub. The repository is hosted on my partner's GitHub account, which I had access to while working on the project.",
+      "Salvage Reseller was a group project built using SQL and PHP with analytics and inventory management features.",
     image: "/database.png",
-    techStack: ["SQL", "PHP", "GitHub", "Database Systems"],
+    techStack: ["SQL", "PHP", "GitHub"],
     github: "https://github.com/adrimivas/salvage_reseller",
     status: "Completed",
     imageFit: "contain",
   },
   {
-    slug: "100-days-of-python",
-    title: "100 Days of Python",
+    slug: "r-for-data-science",
+    title: "R for Data Science",
     description:
-      "An in-progress Python learning challenge documenting steady progress through hands-on daily practice.",
+      "An in-progress project focused on learning R alongside Python.",
     longDescription:
-      "This project represents my ongoing 100 Days of Python challenge. I am currently on day 13 and using OnlineGDB to practice and build consistency while improving my programming skills. My goal is to strengthen my Python foundation because it is widely used in data science and machine learning, which are key areas of interest for me.",
-    image: "/100days-course.webp",
-    techStack: ["Python", "OnlineGDB"],
+      "This project is focused on strengthening my data science skills by learning R and continuing development in Python.",
+    image: "/randPy.jpeg",
+    techStack: ["R", "Python", "Data Science"],
     github: "",
     status: "In Progress",
     imageFit: "contain",
   },
   {
-    slug: "r-for-data-science-planned",
-    title: "R for Data Science",
+    slug: "humanoid-robot",
+    title: "Humanoid Robot Research",
     description:
-      "A planned project focused on learning R to strengthen my skills in data science alongside Python.",
+      "A collaborative humanoid robotics paper developed through shared documents and discussion.",
     longDescription:
-      "This is a planned self-development project that I intend to begin as I continue building technical depth in data science. The goal is to learn R and strengthen my understanding of both Python and R, since both languages are widely used in my field. This project will support my long-term interests in data science, machine learning, and analytics.",
-    image: "/randPy.jpeg",
-    techStack: ["R", "Python", "Data Science"],
+  "This humanoid robotics project focuses on collaborative research and paper development, with an emphasis on color-based object detection in computer vision. The work explores how systems can process visual input to detect and track objects based on color features, contributing to applications in robotics perception and interaction. The project is being developed collaboratively through shared Word documents and Discord, allowing for continuous drafting, discussion, and refinement.",
+      image: "/human.jpg",
+    techStack: ["Research", "Technical Writing", "Word", "Discord"],
     github: "",
-    status: "Planned",
+    status: "In Progress",
     imageFit: "contain",
+    pdf: "/humanoid.pdf",
+  },
+  {
+    slug: "money-app",
+    title: "MoneyApp",
+    description:
+      "A financial app that helps users compare paying off debt versus investing.",
+    longDescription:
+      "MoneyApp is a financial decision-support app that compares debt versus investments to help users make informed decisions about what to do with their money, including whether to pay off debt or focus on investing. The project is being developed collaboratively through shared Word documents and Discord, with work organized using a Gantt chart.",
+    image: "/moneyApp.png",
+    techStack: [
+      "React",
+      "JavaScript",
+      "Financial Analysis",
+      "Word",
+      "Discord",
+      "Gantt Chart",
+    ],
+    github: "",
+    status: "In Progress",
+    imageFit: "cover",
   },
 ];

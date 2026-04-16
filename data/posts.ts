@@ -1,59 +1,90 @@
 //stores structured content for projects and blog posts, 
 // rendered dynamically using .map() and accessed individually with .find() through dynamic routes like /portfolio/[slug] and /blog/[slug].
-export type BlogPost = {
+export type Post = {
   slug: string;
   title: string;
-  excerpt: string;
   category: string;
   date: string;
-  readTime?: string;
+  readTime: string;
+  excerpt: string;
   content: string[];
 };
 
-export const posts: BlogPost[] = [
+export const posts: Post[] = [
   {
-    slug: "exploratory-data-analysis-research-paper",
-    title: "My Experience Performing Exploratory Data Analysis for a Research Paper",
-    excerpt:
-      "A reflection on using exploratory data analysis and basic statistical modeling to support a secondary analysis research paper.",
+    slug: "secondary-analysis-research-paper",
+    title: "What I Learned from Secondary Analysis Research",
     category: "Research",
-    date: " 2026",
+    date: "March 2026",
+    readTime: "4 min read",
+    excerpt:
+      "A reflection on using exploratory data analysis and statistical modeling to support a research paper.",
     content: [
-      "This project gave me the opportunity to work as a researcher on a secondary analysis research paper. My role focused on exploratory data analysis, also known as EDA, along with basic statistical modeling to better understand patterns in the data.",
-      "One of the most important parts of this experience was learning how to approach data with curiosity and structure. I had to examine the dataset carefully, identify patterns, look for irregularities, and understand which variables were most meaningful to the overall research question.",
-      "I also gained experience interpreting results in a way that supported the larger goals of the paper. That process helped me understand that data analysis is not only about numbers, but also about communication. Being able to explain what patterns mean and why they matter is just as important as identifying them.",
-      "This experience strengthened my interest in data science because it showed me how analysis can contribute to real research in a meaningful way. It also gave me more confidence in my ability to work through data thoughtfully, organize findings clearly, and connect technical analysis to broader questions.",
-      "Looking back, this project helped me grow in both analytical thinking and written communication. It confirmed that I enjoy work that combines research, interpretation, and technical problem solving."
+      "Working on a secondary analysis research paper gave me a stronger understanding of how data can support research questions in a structured and meaningful way.",
+      "My role involved exploratory data analysis and statistical modeling, which helped uncover patterns and relationships within the dataset.",
+      "This experience strengthened both my technical and communication skills because I had to interpret results clearly and connect them back to the overall goals of the research.",
+      "It also reinforced my interest in data science by showing me how analytical work can directly contribute to academic and research-based projects.",
     ],
   },
   {
-    slug: "building-the-salvage-reseller-database-project",
+    slug: "salvage-reseller-project",
     title: "Building the Salvage Reseller Database Project",
+    category: "Software Development",
+    date: "February 2026",
+    readTime: "5 min read",
     excerpt:
-      "A look at how our team built a database-driven reseller system with SQL, PHP, analytics, and inventory tools.",
-    category: "Database Project",
-    date: " 2026",
+      "A look back at a group database project involving SQL, PHP, analytics, and inventory management.",
     content: [
-      "Salvage Reseller was a group project created for Database Design and Implementation. The purpose of the project was to design a system that could store product information, display items for customers, and provide useful tools for employees managing the business.",
-      "Our project used SQL queries connected through PHP to display products and support customer purchasing. We also created an employee dashboard that allowed for analytics as well as inventory actions such as adding, deleting, and updating products. This gave the project both a customer-facing side and an internal management side.",
-      "One of the most valuable parts of this project was seeing how database design affects the overall experience of a system. A strong database structure supports accuracy, organization, and efficiency, and it helped me better understand how backend logic connects to what users actually see on the screen.",
-      "Because this was a team project, I also gained more experience with collaboration and version control. We used GitHub during development, which helped us organize our work and contribute to the project in a more professional way.",
-      "This project helped me strengthen both technical and teamwork skills. It also gave me a clearer sense of how database systems can support practical applications, which is something I want to continue developing in future work."
+      "Salvage Reseller was a group project built for Database Design and Implementation, and it gave me valuable experience working on a collaborative software system.",
+      "The project used mock data stored in a database, with products displayed through SQL queries called in PHP.",
+      "In addition to customer-facing purchasing features, the system also included an employee dashboard with analytics and inventory management functionality.",
+      "One of the most valuable parts of the experience was collaborating through GitHub and seeing how database design, queries, and application logic come together in a complete project.",
     ],
   },
   {
-    slug: "progress-through-100-days-of-python",
-    title: "My Progress Through the 100 Days of Python Challenge",
+    slug: "r-for-data-science-journey",
+    title: "Why I’m Learning R for Data Science",
+    category: "Learning",
+    date: "April 2026",
+    readTime: "3 min read",
     excerpt:
-      "What I’m learning from consistent Python practice and how it supports my long-term goals in data science and machine learning.",
-    category: "Learning Journal",
-    date: " 2026",
+      "Why learning R alongside Python is helping me grow as a data science student.",
     content: [
-      "I started the 100 Days of Python challenge to build stronger consistency in programming and improve my confidence with Python. I am currently on day 13 and using OnlineGDB to practice regularly.",
-      "One of the biggest lessons from this challenge so far is that steady progress matters more than trying to master everything at once. I do multiple days at a time and I notice the more occasions I work, the more comfortable I am with what I've learned.",
-      "I know this will be useful in future coursework, projects, and technical interviews.",
-      "Python is especially important to me because of its role in data science and machine learning. Since those are major areas of interest for me, I see this challenge as more than just practice. It is a foundation for the kind of work I hope to do in the future.",
-      "As I continue through the challenge, my goal is to keep improving step by step and stay focused on long-term growth."
+      "As I continue developing my data science skills, I decided to begin learning R alongside Python.",
+      "Both languages are widely used in analytics, statistics, and machine learning, and learning both helps me build a more flexible technical toolkit.",
+      "This project represents my commitment to strengthening my skills and becoming more versatile in the kinds of tools I can use for analysis.",
+      "It has also helped me think more intentionally about how different languages support different workflows in data science.",
+    ],
+  },
+  {
+    slug: "money-app",
+    title: "Building MoneyApp: Debt vs. Investing",
+    category: "Project Update",
+    date: "April 2026",
+    readTime: "4 min read",
+    excerpt:
+      "MoneyApp is a collaborative finance project designed to help users decide whether to pay off debt or focus on investing.",
+    content: [
+      "MoneyApp is a financial decision-support app that helps users compare debt payoff versus investing.",
+      "The purpose of the project is to help people make more informed choices about what to do with their money based on their financial situation.",
+      "Rather than guessing whether debt payoff or investing should come first, the app is meant to provide a clearer way to evaluate both options.",
+      "This project is being developed collaboratively through shared Word documents and Discord, where ideas, planning, and progress are discussed together.",
+      "To stay organized, the team is also using a Gantt chart to manage tasks, timelines, and responsibilities throughout development.",
+    ],
+  },
+  {
+    slug: "humanoid-paper",
+    title: "Working on a Humanoid Robot Paper",
+    category: "Research",
+    date: "April 2026",
+    readTime: "3 min read",
+    excerpt:
+      "A collaborative humanoid robotics paper in progress, developed through shared documents and ongoing discussion in Discord.",
+    content: [
+      "This project is centered on developing a humanoid robot paper through collaborative research, writing, and revision.",
+      "The paper is being worked on collaboratively using shared Word documents, which makes it easier to build ideas together and refine each section over time.",
+      "Discord is also being used to support communication, discussion, and feedback throughout the project.",
+      "The process has been valuable not only for exploring humanoid robotics concepts, but also for strengthening collaboration and technical communication skills.",
     ],
   },
 ];

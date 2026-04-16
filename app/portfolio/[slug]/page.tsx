@@ -16,6 +16,8 @@ export default async function ProjectDetailPage({ params }: Props) {
     notFound();
   }
 
+  const isRProject = project.slug === "r-for-data-science";
+
   return (
     <div className="page-fade flex flex-col items-center gap-10 py-20">
       <section className="card max-w-4xl w-full">
@@ -45,6 +47,34 @@ export default async function ProjectDetailPage({ params }: Props) {
             {project.longDescription}
           </p>
 
+  
+          {isRProject && (
+            <div className="mt-8">
+              <h2 className="text-2xl font-semibold">
+                What I’m Currently Working On
+              </h2>
+
+              <ul className="mt-4 list-disc pl-6 opacity-90 leading-relaxed space-y-2">
+                <li>
+                  Practicing data cleaning and transformation using real-world
+                  datasets in R.
+                </li>
+                <li>
+                  Exploring data visualization techniques using libraries like
+                  ggplot2.
+                </li>
+                <li>
+                  Learning how to analyze and interpret data through statistical
+                  methods.
+                </li>
+                <li>
+                  Comparing how R and Python are used in different data science
+                  workflows.
+                </li>
+              </ul>
+            </div>
+          )}
+
           <div className="mt-8">
             <h2 className="text-2xl font-semibold">Tech Stack</h2>
             <div className="mt-4 flex flex-wrap gap-3">
@@ -59,16 +89,29 @@ export default async function ProjectDetailPage({ params }: Props) {
             </div>
           </div>
 
-          {project.github && (
-            <div className="mt-8">
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline font-medium"
-              >
-                View GitHub Repository
-              </a>
+          {(project.github || project.pdf) && (
+            <div className="mt-8 flex flex-wrap gap-6">
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline font-medium"
+                >
+                  View GitHub Repository
+                </a>
+              )}
+
+              {project.pdf && (
+                <a
+                  href={project.pdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline font-medium"
+                >
+                  View Paper PDF
+                </a>
+              )}
             </div>
           )}
         </div>

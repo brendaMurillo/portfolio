@@ -28,9 +28,7 @@ export default function BlogPage() {
 
             <h2 className="mt-4 text-2xl font-semibold">{post.title}</h2>
 
-            <p className="mt-4 opacity-90 leading-relaxed">
-              {post.excerpt}
-            </p>
+            <p className="mt-4 opacity-90 leading-relaxed">{post.excerpt}</p>
 
             <p className="mt-5 blog-read-more">Read post →</p>
           </Link>

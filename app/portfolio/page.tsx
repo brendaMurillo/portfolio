@@ -8,7 +8,7 @@ export default function PortfolioPage() {
         <h1 className="text-4xl font-semibold">Portfolio</h1>
         <p className="mt-4 opacity-90">
           A collection of projects highlighting my work in programming,
-  data science, and software development.
+          data science, research, and software development.
         </p>
       </section>
 
@@ -34,6 +34,10 @@ export default function PortfolioPage() {
             <h2 className="mt-5 text-2xl font-semibold text-center">
               {project.title}
             </h2>
+
+            <p className="mt-3 text-center opacity-80 leading-relaxed">
+              {project.description}
+            </p>
           </Link>
         ))}
       </section>
