@@ -2,7 +2,7 @@ import "./globals.css";
 import Nav from "../components/Nav";
 
 export const metadata = {
-  title: "Full Name",
+  title: "Brenda Murillo",
   description: "Portfolio website",
 };
 
