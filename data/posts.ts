@@ -30,7 +30,7 @@ export const posts: Post[] = [
     slug: "salvage-reseller-project",
     title: "Building the Salvage Reseller Database Project",
     category: "Software Development",
-    date: "February 2026",
+    date: "December 2025",
     readTime: "5 min read",
     excerpt:
       "A look back at a group database project involving SQL, PHP, analytics, and inventory management.",
@@ -45,7 +45,7 @@ export const posts: Post[] = [
     slug: "r-for-data-science-journey",
     title: "Why I’m Learning R for Data Science",
     category: "Learning",
-    date: "April 2026",
+    date: "March 2026",
     readTime: "3 min read",
     excerpt:
       "Why learning R alongside Python is helping me grow as a data science student.",
@@ -60,7 +60,7 @@ export const posts: Post[] = [
     slug: "money-app",
     title: "Building MoneyApp: Debt vs. Investing",
     category: "Project Update",
-    date: "April 2026",
+    date: "March 2026",
     readTime: "4 min read",
     excerpt:
       "MoneyApp is a collaborative finance project designed to help users decide whether to pay off debt or focus on investing.",
@@ -76,7 +76,7 @@ export const posts: Post[] = [
     slug: "humanoid-paper",
     title: "Working on a Humanoid Robot Paper",
     category: "Research",
-    date: "April 2026",
+    date: "February 2026",
     readTime: "3 min read",
     excerpt:
       "A collaborative humanoid robotics paper in progress, developed through shared documents and ongoing discussion in Discord.",
