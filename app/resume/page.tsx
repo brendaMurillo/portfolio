@@ -25,12 +25,12 @@ export default function ResumePage() {
             GitHub
           </a>
           <a
-            href="https://bmurillo-portfolio.vercel.app"
+            href="https://www.linkedin.com/in/brenda-murillo-760465225/"
             target="_blank"
             rel="noreferrer"
             className="underline"
           >
-            Portfolio
+            LinkedIn
           </a>
         </div>
       </section>
