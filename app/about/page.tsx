@@ -1,5 +1,3 @@
-import PythonRunner from "@/components/PythonRunner";
-
 export default function AboutPage() {
   return (
     <div className="page-fade flex flex-col items-center gap-16 py-20">
@@ -8,10 +6,10 @@ export default function AboutPage() {
 
         <p className="mt-6 opacity-90 leading-relaxed">
           I am a Computer Science student at California State University,
-          Bakersfield with interests in data science, machine learning,
-          data analytics, and cybersecurity. My work focuses on building
-          meaningful projects that combine technical problem solving with
-          real-world applications.
+          Bakersfield with interests in data science, machine learning, data
+          analytics, and cybersecurity. My work focuses on building meaningful
+          projects that combine technical problem solving with real-world
+          applications.
         </p>
 
         <p className="mt-6 opacity-90 leading-relaxed">
@@ -87,7 +85,13 @@ export default function AboutPage() {
           </div>
         </div>
 
-      
+        <div className="mt-8 flex justify-center">
+          <img
+            src="/python.png"
+            alt="Python programming skills graphic"
+            className="about-photo"
+          />
+        </div>
       </section>
 
       <section className="card max-w-3xl text-center">
@@ -99,29 +103,6 @@ export default function AboutPage() {
           hands-on development. I value teamwork, communication, technical
           writing, and continuous learning.
         </p>
-      </section>
-
-      <section className="card max-w-4xl w-full">
-        <h2 className="text-2xl font-semibold text-center">
-          Python Playground
-        </h2>
-
-        <div className="mt-8 flex justify-center">
-  <img
-    src="/python.png"
-    alt="Python programming skills graphic"
-    className="about-photo"
-  />
-</div>
-
-        <p className="mt-4 opacity-90 text-center">
-          Try editing and running a simple Python program directly in the
-          browser.
-        </p>
-
-        <div className="mt-6">
-          <PythonRunner />
-        </div>
       </section>
     </div>
   );

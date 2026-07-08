@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import PythonRunner from "@/components/PythonRunner";
 
 export default function HomePage() {
   const [frontIndex, setFrontIndex] = useState(0);
@@ -12,16 +13,16 @@ export default function HomePage() {
       alt: "Brenda Viviana Murillo",
     },
     {
-  src: "/dataWorkshop.jpg",
-  alt: "CSUB Data Analytics Workshop group photo",
-},
-    {
       src: "/presentation.png",
       alt: "Brenda Viviana Murillo presentation photo",
     },
     {
       src: "/robotics.jpeg",
       alt: "Robotics project preview",
+    },
+    {
+      src: "/dataWorkshop.jpg",
+      alt: "CSUB Data Analytics Workshop group photo",
     },
   ];
 
@@ -48,8 +49,9 @@ export default function HomePage() {
           <p className="hero-subtitle">Computer Science Student</p>
 
           <p className="hero-description">
-            This portfolio highlights selected projects, writing, and work
-            that reflect my experience in computer science.
+            This portfolio highlights selected projects, writing, and work that
+            reflect my experience in computer science, data analytics, research,
+            and software development.
           </p>
 
           <button
@@ -72,16 +74,40 @@ export default function HomePage() {
               />
             </div>
           </button>
+          
+         <p className="photo-hint">Tap the photo to cycle through images.</p>
 
-          <p className="photo-hint">Tap the photo to cycle through images.</p>
+          
+
+          <section className="card max-w-4xl w-full mt-14">
+            <h2 className="text-2xl font-semibold text-center">
+              Python Playground
+            </h2>
+
+            <div className="mt-6 flex justify-center">
+              <img
+                src="/python.png"
+                alt="Python programming skills graphic"
+                className="about-photo"
+              />
+            </div>
+
+            <p className="mt-4 opacity-90 text-center">
+              Edit and run a simple Python program directly in the browser.
+            </p>
+
+            <div className="mt-6">
+              <PythonRunner />
+            </div>
+          </section>
 
           <div className="hero-links">
-            <Link href="/about">About</Link>
-            <Link href="/resume">Resume</Link>
-            <Link href="/portfolio">Portfolio</Link>
-            <Link href="/blog">Blog</Link>
-            <Link href="/contact">Contact</Link>
-          </div>
+  <Link href="/about">About</Link>
+  <Link href="/resume">Resume</Link>
+  <Link href="/portfolio">Portfolio</Link>
+  <Link href="/blog">Blog</Link>
+  <Link href="/contact">Contact</Link>
+</div>
         </div>
       </section>
     </div>
