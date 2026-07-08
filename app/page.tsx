@@ -12,6 +12,10 @@ export default function HomePage() {
       alt: "Brenda Viviana Murillo",
     },
     {
+  src: "/dataWorkshop.jpg",
+  alt: "CSUB Data Analytics Workshop group photo",
+},
+    {
       src: "/presentation.png",
       alt: "Brenda Viviana Murillo presentation photo",
     },

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { projects } from "../../../data/projects";
+import PythonRunner from "@/components/PythonRunner";
 
 type Props = {
   params: Promise<{

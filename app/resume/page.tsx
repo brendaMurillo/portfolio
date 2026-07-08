@@ -11,6 +11,28 @@ export default function ResumePage() {
             Download Condensed Resume (PDF)
           </a>
         </div>
+
+        <div className="mt-6 flex flex-wrap justify-center gap-4 text-sm opacity-90">
+          <a href="mailto:bmurillo3@csub.edu" className="underline">
+            bmurillo3@csub.edu
+          </a>
+          <a
+            href="https://github.com/brendaMurillo"
+            target="_blank"
+            rel="noreferrer"
+            className="underline"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://bmurillo-portfolio.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            className="underline"
+          >
+            Portfolio
+          </a>
+        </div>
       </section>
 
       <section className="card max-w-4xl w-full">
@@ -21,10 +43,11 @@ export default function ResumePage() {
         <p className="mt-6 opacity-90 leading-relaxed text-center">
           Computer Science student at California State University, Bakersfield
           with experience in data analytics, AI data evaluation, statistical
-          modeling, dashboard development, database systems, and software
-          projects. Skilled in Python, SQL, R, Excel, Tableau, Java, JavaScript,
-          and PHP, with hands-on experience cleaning datasets, analyzing trends,
-          building visualizations, and supporting machine learning workflows.
+          modeling, dashboard development, database systems, research, and
+          software projects. Skilled in Python, SQL, R, Excel, Tableau, Java,
+          JavaScript, and PHP, with hands-on experience cleaning datasets,
+          analyzing trends, building visualizations, engineering predictive
+          features, and supporting machine learning workflows.
           Seeking data analyst, data science, or machine learning internship
           opportunities.
         </p>
@@ -47,14 +70,16 @@ export default function ResumePage() {
             <h3 className="text-xl font-medium">Data Science & Analytics</h3>
             <p className="mt-2 opacity-90">
               Data cleaning, data visualization, statistical analysis, EDA,
-              regression, clustering, predictive modeling, hypothesis testing
+              regression, clustering, predictive modeling, feature engineering,
+              hypothesis testing, model evaluation
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-medium">Libraries & Frameworks</h3>
             <p className="mt-2 opacity-90">
-              pandas, NumPy, Matplotlib, OpenCV, dplyr, ggplot2, React Native
+              pandas, NumPy, scikit-learn, XGBoost, Matplotlib, OpenCV, dplyr,
+              ggplot2, React Native
             </p>
           </div>
 
@@ -101,6 +126,9 @@ export default function ResumePage() {
               Systems, Software Engineering, Data Structures, Linear Algebra,
               and App Development.
             </p>
+            <p className="mt-2 opacity-90 leading-relaxed">
+              Activity: Vice President, Robotics Club.
+            </p>
           </div>
 
           <div>
@@ -124,12 +152,16 @@ export default function ResumePage() {
               Data Analyst Workshop — Data Analyst Trainee
             </h3>
             <p className="mt-2 opacity-90">
-              Lancaster, CA | June 2026 – Present
+              Lancaster, CA | June 2026 
             </p>
             <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
               <li>
                 Create 10+ dashboards and visualizations using Tableau and
                 Excel to communicate key insights.
+              </li>
+              <li>
+                Use SQL and Python to clean, validate, and analyze datasets for
+                trends and decision-making.
               </li>
               <li>
                 Perform data preprocessing and validation across 20+ workshop
@@ -140,7 +172,7 @@ export default function ResumePage() {
                 and analysis reliability.
               </li>
               <li>
-                Analyze datasets with 500+ records using Excel, SQL, and Python
+                Analyze datasets with 15000+ records using Excel, SQL, and Python
                 to identify trends.
               </li>
             </ul>
@@ -159,6 +191,10 @@ export default function ResumePage() {
               <li>
                 Contribute to data validation processes that ensure consistency
                 and accuracy across training inputs.
+              </li>
+              <li>
+                Validate annotations and identify inconsistencies to support
+                high-quality AI model development.
               </li>
             </ul>
           </div>
@@ -236,6 +272,29 @@ export default function ResumePage() {
               <li>
                 Collaborated in a team environment using GitHub for version
                 control and project coordination.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-medium">
+              Predicting Employee Turnover Using Machine Learning
+            </h3>
+            <p className="mt-2 opacity-90">
+              SIGTSE paper in preparation
+            </p>
+            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
+              <li>
+                Developed Logistic Regression, Random Forest, and XGBoost
+                models on a 15,000+ record employee dataset.
+              </li>
+              <li>
+                Engineered predictive features and tuned hyperparameters to
+                improve model performance.
+              </li>
+              <li>
+                Evaluated models using ROC-AUC, precision, recall, F1-score,
+                and confusion matrices.
               </li>
             </ul>
           </div>
