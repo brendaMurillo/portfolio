@@ -85,13 +85,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className="mt-8 flex justify-center">
-          <img
-            src="/python.png"
-            alt="Python programming skills graphic"
-            className="about-photo"
-          />
-        </div>
+        
       </section>
 
       <section className="card max-w-3xl text-center">
