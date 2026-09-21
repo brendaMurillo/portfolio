@@ -343,48 +343,26 @@ export default function ResumePage() {
 
           <div>
             <h3 className="text-xl font-medium">
-              PrepPal &mdash; AI Academic Assistant
+              The Agent Coach &mdash; Agentic AI Study Companion
             </h3>
             <p className="mt-2 opacity-90">Independent Project</p>
             <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
               <li>
-                Developed an agentic AI academic assistant with web and arXiv
-                search, calculation, GPA analysis, and RAG-based retrieval over
-                student documents to provide personalized academic support.
+                Built a private AI study companion in Python using local models
+                through Ollama, LangChain/LangGraph, and Gradio, with custom
+                tools for course Q&amp;A, GPA calculation, math, and web/arXiv
+                search, plus full tool-call tracing.
               </li>
               <li>
-                Implemented conversational and semantic memory using LangGraph
-                and Chroma, with embedding-based retrieval, tool-input
-                guardrails, tool-call logging, and an interactive Gradio
-                interface.
-              </li>
-            </ul>
-            <a
-              href="https://github.com/brendaMurillo/prepPal-AI-chatbot"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-3 inline-block underline font-medium"
-            >
-              View GitHub Repository
-            </a>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-medium">
-              The Agent Coach &mdash; Agentic AI Experimentation
-            </h3>
-            <p className="mt-2 opacity-90">Independent Project</p>
-            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
-              <li>
-                Built an experimentation platform in Python to test how
-                different agentic AI architectures and design choices affect an
-                assistant&rsquo;s capabilities and behavior.
+                Implemented RAG over an ingested course syllabus with local
+                embeddings, LangGraph conversation and semantic memory, and
+                multi-tool orchestration.
               </li>
               <li>
-                Implemented custom tools (search, weather, document retrieval),
-                RAG over ingested documents with embeddings, and multi-tool
-                orchestration, and ran side-by-side comparisons across multiple
-                models.
+                Used the project as an experimentation ground to test how
+                different architectures and design choices affect an
+                assistant&rsquo;s capabilities, running side-by-side comparisons
+                across multiple models, embeddings, and tokenization.
               </li>
             </ul>
             <a
