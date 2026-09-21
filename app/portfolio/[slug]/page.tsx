@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { projects } from "../../../data/projects";
-import PythonRunner from "@/components/PythonRunner";
+import ProjectGallery from "@/components/ProjectGallery";
 
 type Props = {
   params: Promise<{
@@ -26,16 +26,26 @@ export default async function ProjectDetailPage({ params }: Props) {
           ← Back to Portfolio
         </Link>
 
-        <div className="portfolio-detail-image-frame mt-6">
-          <img
-            src={project.image}
-            alt={project.title}
-            className={
-              project.imageFit === "contain"
-                ? "portfolio-detail-image portfolio-image-contain"
-                : "portfolio-detail-image portfolio-image-cover"
-            }
-          />
+        <div className="mt-6">
+          {project.gallery && project.gallery.length > 0 ? (
+            <ProjectGallery
+              images={project.gallery}
+              title={project.title}
+              imageFit={project.imageFit}
+            />
+          ) : (
+            <div className="portfolio-detail-image-frame">
+              <img
+                src={project.image}
+                alt={project.title}
+                className={
+                  project.imageFit === "contain"
+                    ? "portfolio-detail-image portfolio-image-contain"
+                    : "portfolio-detail-image portfolio-image-cover"
+                }
+              />
+            </div>
+          )}
         </div>
 
         <div className="mt-6">

@@ -14,6 +14,51 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "lets-talk-legal-chatbot",
+    title: "Building a Legal Question Chatbot for Let's Talk",
+    category: "Software Development",
+    date: "September 2026",
+    readTime: "4 min read",
+    excerpt:
+      "A look at Let's Talk, my industry-sponsored senior capstone, and the legal question chatbot I built into a secure co-parenting platform.",
+    content: [
+      "Let's Talk is my industry-sponsored senior capstone, where I work as an AI/Software Developer building a secure co-parenting communication platform using React Native, TypeScript, Supabase, and PostgreSQL.",
+      "The platform includes real-time messaging, authentication, and family-based account linking. To protect sensitive communications and support future court-aligned records, I implemented database-level authorization with PostgreSQL Row Level Security (RLS) and immutable message history.",
+      "As part of this work, I also built a legal question chatbot. Using LLM and RAG workflows, the chatbot provides source-grounded answers over curated legal information, so users can get clear responses tied back to trustworthy sources.",
+      "Alongside the chatbot, I contributed to AI-powered de-escalation features, including neutral message rewording that helps keep sensitive conversations calm and constructive.",
+      "This project has deepened my experience with full-stack development, secure database design, and applied AI, and it has shown me how thoughtful software can support people during difficult situations.",
+    ],
+  },
+  {
+    slug: "stratolaunch-summer-program",
+    title: "My Summer at Stratolaunch",
+    category: "Experience",
+    date: "August 2026",
+    readTime: "3 min read",
+    excerpt:
+      "A reflection on my second summer program at Stratolaunch, a hypersonic flight-test accelerator at the Mojave Air and Space Port.",
+    content: [
+      "For my second summer program, I had the opportunity to take part in a program at Stratolaunch, a technology accelerator focused on hypersonic flight testing based at the Mojave Air and Space Port.",
+      "The experience gave me hands-on exposure to real-world aerospace engineering, data systems, and operations in a fast-paced technical environment.",
+      "I especially valued learning alongside a talented group of peers and seeing how computer science and data skills apply to complex, mission-driven engineering problems.",
+      "This program strengthened my interest in working on challenging technical problems and reinforced how much I enjoy learning in collaborative, real-world settings.",
+    ],
+  },
+  {
+    slug: "edwards-red-white-boom",
+    title: "Representing Our AV-Robotics Club at Edwards Air Force Base",
+    category: "Leadership",
+    date: "July 2026",
+    readTime: "3 min read",
+    excerpt:
+      "Volunteering as Vice President of our AV-Robotics Club at the Red, White & Boom event at Edwards Air Force Base.",
+    content: [
+      "I'm grateful for the opportunity to represent our AV-Robotics Club as Vice President alongside our club president at the Red, White & Boom event at Edwards Air Force Base in Rosamond, California this past Friday!",
+      "We presented Tony Pi, a humanoid robot, to thousands of attendees and demonstrated programs our team developed, including color and face tracking, as well as interactive actions like playing kickball.",
+      "Thank you to Edwards Air Force Base for having me as a volunteer. I'm truly grateful for this experience, the opportunity to share our work, and the new friends I made along the way!",
+    ],
+  },
+  {
     slug: "predicting-employee-turnover-research",
     title: "Predicting Employee Turnover Through Data Analysis",
     category: "Research",

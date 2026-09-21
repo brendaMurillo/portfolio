@@ -9,6 +9,14 @@ export default function HomePage() {
 
   const images = [
     {
+      src: "/roboclub.jpg",
+      alt: "CSUB Antelope Valley Robotics Club group photo",
+    },
+    {
+      src: "/humanoidrobo.jpeg",
+      alt: "Tony Pi humanoid robot",
+    },
+    {
       src: "/IMG_1092.jpg",
       alt: "Brenda Viviana Murillo",
     },
@@ -17,12 +25,16 @@ export default function HomePage() {
       alt: "Brenda Viviana Murillo presentation photo",
     },
     {
-      src: "/robotics.jpeg",
-      alt: "Robotics project preview",
+      src: "/stratolaunch.jpeg",
+      alt: "Stratolaunch summer program group photo at the Mojave Air and Space Port",
     },
     {
       src: "/dataWorkshop.jpg",
       alt: "CSUB Data Analytics Workshop group photo",
+    },
+    {
+      src: "/edwards.jpeg",
+      alt: "AV-Robotics Club STEM volunteer table at Edwards Air Force Base Red, White & Boom event",
     },
   ];
 
