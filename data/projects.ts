@@ -179,7 +179,7 @@ export const projects: Project[] = [
       "A private AI study companion, built as an experimentation ground for comparing agentic AI architectures, tools, and models.",
     longDescription:
       "The Agent Coach is an independent agentic AI project: a private AI study companion powered by local models through Ollama, LangChain/LangGraph, and Gradio. It answers questions about your course from an ingested syllabus (RAG), calculates your GPA, does math, and searches the web and arXiv — all through a set of custom tools with full tool-call tracing. Beyond the assistant itself, the project is an experimentation ground for testing how the way an agentic system is built affects what it can do, including RAG over ingested documents with local embeddings, LangGraph conversation and semantic memory, multi-tool orchestration, and side-by-side comparisons of multiple models, embeddings, and tokenization.",
-    image: "/agentcoach.png",
+    image: "/theAgentCoach.jpeg",
     techStack: [
       "Python",
       "Agentic AI",
