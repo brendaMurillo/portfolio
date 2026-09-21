@@ -356,13 +356,8 @@ export default function ResumePage() {
                 Built a private AI study companion in Python using local Ollama
                 models, LangChain/LangGraph, and Gradio, with custom tools for
                 course Q&amp;A (RAG over an ingested syllabus), GPA, math, and
-                web/arXiv search, plus tool-call tracing.
-              </li>
-              <li>
-                Used it as an experimentation ground to test how architecture
-                and design choices affect capabilities, comparing multiple
-                models, embeddings, and tokenization with LangGraph conversation
-                and semantic memory.
+                web/arXiv search; used it as an experimentation ground to
+                compare models, embeddings, and tokenization.
               </li>
             </ul>
             <a
