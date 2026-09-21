@@ -172,4 +172,37 @@ export const projects: Project[] = [
     status: "Completed",
     imageFit: "contain",
   },
+  {
+    slug: "preppal-ai-assistant",
+    title: "PrepPal — AI Academic Assistant",
+    description:
+      "An agentic AI academic assistant with web/arXiv search, GPA analysis, and RAG-based retrieval over student documents.",
+    longDescription:
+      "PrepPal is an independent project: an agentic AI academic assistant that provides personalized academic support through web and arXiv search, calculation, GPA analysis, and RAG-based retrieval over student documents. I implemented conversational and semantic memory using LangGraph and Chroma, with embedding-based retrieval, tool-input guardrails, tool-call logging, and an interactive Gradio interface.",
+    image: "/roboclub.jpg",
+    techStack: [
+      "Python",
+      "Agentic AI",
+      "LangGraph",
+      "Chroma",
+      "RAG",
+      "Gradio",
+    ],
+    github: "https://github.com/brendaMurillo/prepPal-AI-chatbot",
+    status: "Completed",
+    imageFit: "cover",
+  },
+  {
+    slug: "the-agent-coach",
+    title: "The Agent Coach",
+    description:
+      "An agentic AI assistant that combines LLM reasoning with custom tools and document-based retrieval.",
+    longDescription:
+      "The Agent Coach is an independent project exploring agentic AI. I built a Python assistant that combines LLM-driven reasoning with custom tools, including search, weather, and document-based retrieval. It uses RAG over ingested documents with embeddings and multi-tool orchestration, and includes experiments comparing multiple models for response quality.",
+    image: "/roboclub.jpg",
+    techStack: ["Python", "Agentic AI", "LLMs", "RAG", "Embeddings"],
+    github: "https://github.com/brendaMurillo/TheAgentCoach",
+    status: "Completed",
+    imageFit: "cover",
+  },
 ];

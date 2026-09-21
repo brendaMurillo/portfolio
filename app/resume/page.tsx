@@ -360,6 +360,33 @@ export default function ResumePage() {
               </li>
             </ul>
             <a
+              href="https://github.com/brendaMurillo/prepPal-AI-chatbot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block underline font-medium"
+            >
+              View GitHub Repository
+            </a>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-medium">
+              The Agent Coach &mdash; Agentic AI Assistant
+            </h3>
+            <p className="mt-2 opacity-90">Independent Project</p>
+            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
+              <li>
+                Built an agentic AI assistant in Python that combines
+                LLM-driven reasoning with custom tools, including search,
+                weather, and document-based retrieval.
+              </li>
+              <li>
+                Implemented RAG over ingested documents with embeddings and
+                multi-tool orchestration, and experimented with comparing
+                multiple models for response quality.
+              </li>
+            </ul>
+            <a
               href="https://github.com/brendaMurillo/TheAgentCoach"
               target="_blank"
               rel="noopener noreferrer"
