@@ -196,11 +196,18 @@ export const projects: Project[] = [
     slug: "the-agent-coach",
     title: "The Agent Coach",
     description:
-      "An agentic AI assistant that combines LLM reasoning with custom tools and document-based retrieval.",
+      "An experimental agentic AI build created to test how different architectures and design choices affect an assistant's capabilities.",
     longDescription:
-      "The Agent Coach is an independent project exploring agentic AI. I built a Python assistant that combines LLM-driven reasoning with custom tools, including search, weather, and document-based retrieval. It uses RAG over ingested documents with embeddings and multi-tool orchestration, and includes experiments comparing multiple models for response quality.",
+      "The Agent Coach is an independent project focused on testing how the way an agentic AI system is built affects what it can do. Rather than being a single finished assistant, it is an experimentation ground where I implement the same academic-support goals through different architectures, tools, and model choices, then compare the resulting capabilities and behavior. The project explores custom tools (search, weather, and document-based retrieval), RAG over ingested documents with embeddings, multi-tool orchestration, and side-by-side comparisons of multiple models. It shares a problem space with PrepPal, but the two differ in how they are built and, as a result, what they are able to do.",
     image: "/roboclub.jpg",
-    techStack: ["Python", "Agentic AI", "LLMs", "RAG", "Embeddings"],
+    techStack: [
+      "Python",
+      "Agentic AI",
+      "LLMs",
+      "RAG",
+      "Embeddings",
+      "Model Comparison",
+    ],
     github: "https://github.com/brendaMurillo/TheAgentCoach",
     status: "Completed",
     imageFit: "cover",

@@ -371,19 +371,20 @@ export default function ResumePage() {
 
           <div>
             <h3 className="text-xl font-medium">
-              The Agent Coach &mdash; Agentic AI Assistant
+              The Agent Coach &mdash; Agentic AI Experimentation
             </h3>
             <p className="mt-2 opacity-90">Independent Project</p>
             <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
               <li>
-                Built an agentic AI assistant in Python that combines
-                LLM-driven reasoning with custom tools, including search,
-                weather, and document-based retrieval.
+                Built an experimentation platform in Python to test how
+                different agentic AI architectures and design choices affect an
+                assistant&rsquo;s capabilities and behavior.
               </li>
               <li>
-                Implemented RAG over ingested documents with embeddings and
-                multi-tool orchestration, and experimented with comparing
-                multiple models for response quality.
+                Implemented custom tools (search, weather, document retrieval),
+                RAG over ingested documents with embeddings, and multi-tool
+                orchestration, and ran side-by-side comparisons across multiple
+                models.
               </li>
             </ul>
             <a
