@@ -173,43 +173,25 @@ export const projects: Project[] = [
     imageFit: "contain",
   },
   {
-    slug: "preppal-ai-assistant",
-    title: "PrepPal — AI Academic Assistant",
+    slug: "the-agent-coach",
+    title: "The Agent Coach",
     description:
-      "An agentic AI academic assistant with web/arXiv search, GPA analysis, and RAG-based retrieval over student documents.",
+      "A private AI study companion, built as an experimentation ground for comparing agentic AI architectures, tools, and models.",
     longDescription:
-      "PrepPal is an independent project: an agentic AI academic assistant that provides personalized academic support through web and arXiv search, calculation, GPA analysis, and RAG-based retrieval over student documents. I implemented conversational and semantic memory using LangGraph and Chroma, with embedding-based retrieval, tool-input guardrails, tool-call logging, and an interactive Gradio interface.",
-    image: "/roboclub.jpg",
+      "The Agent Coach is an independent agentic AI project: a private AI study companion powered by local models through Ollama, LangChain/LangGraph, and Gradio. It answers questions about your course from an ingested syllabus (RAG), calculates your GPA, does math, and searches the web and arXiv — all through a set of custom tools with full tool-call tracing. Beyond the assistant itself, the project is an experimentation ground for testing how the way an agentic system is built affects what it can do, including RAG over ingested documents with local embeddings, LangGraph conversation and semantic memory, multi-tool orchestration, and side-by-side comparisons of multiple models, embeddings, and tokenization.",
+    image: "/theAgentCoach.jpeg",
     techStack: [
       "Python",
       "Agentic AI",
+      "LangChain",
       "LangGraph",
+      "Ollama",
       "Chroma",
       "RAG",
       "Gradio",
     ],
-    github: "https://github.com/brendaMurillo/prepPal-AI-chatbot",
-    status: "Completed",
-    imageFit: "cover",
-  },
-  {
-    slug: "the-agent-coach",
-    title: "The Agent Coach",
-    description:
-      "An experimental agentic AI build created to test how different architectures and design choices affect an assistant's capabilities.",
-    longDescription:
-      "The Agent Coach is an independent project focused on testing how the way an agentic AI system is built affects what it can do. Rather than being a single finished assistant, it is an experimentation ground where I implement the same academic-support goals through different architectures, tools, and model choices, then compare the resulting capabilities and behavior. The project explores custom tools (search, weather, and document-based retrieval), RAG over ingested documents with embeddings, multi-tool orchestration, and side-by-side comparisons of multiple models. It shares a problem space with PrepPal, but the two differ in how they are built and, as a result, what they are able to do.",
-    image: "/roboclub.jpg",
-    techStack: [
-      "Python",
-      "Agentic AI",
-      "LLMs",
-      "RAG",
-      "Embeddings",
-      "Model Comparison",
-    ],
     github: "https://github.com/brendaMurillo/TheAgentCoach",
     status: "Completed",
-    imageFit: "cover",
+    imageFit: "contain",
   },
 ];
