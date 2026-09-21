@@ -7,7 +7,11 @@ export default function ResumePage() {
         <p className="mt-4 opacity-90">Brenda Viviana Murillo</p>
 
         <div className="mt-6">
-          <a href="/resume.pdf" download className="underline font-medium">
+          <a
+            href="/B.Murillo-Resume.pdf"
+            download
+            className="underline font-medium"
+          >
             Download Resume (PDF)
           </a>
         </div>
@@ -299,6 +303,14 @@ export default function ResumePage() {
                 F1-score, and confusion matrices.
               </li>
             </ul>
+            <a
+              href="https://github.com/brendaMurillo/predicting-employee-turnover"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block underline font-medium"
+            >
+              View GitHub Repository
+            </a>
           </div>
 
           <div>
@@ -319,6 +331,14 @@ export default function ResumePage() {
                 logged scan results for evaluation and future analysis.
               </li>
             </ul>
+            <a
+              href="https://github.com/brendaMurillo/agenticFruitDetection"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block underline font-medium"
+            >
+              View GitHub Repository
+            </a>
           </div>
 
           <div>
@@ -339,6 +359,14 @@ export default function ResumePage() {
                 interface.
               </li>
             </ul>
+            <a
+              href="https://github.com/brendaMurillo/TheAgentCoach"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block underline font-medium"
+            >
+              View GitHub Repository
+            </a>
           </div>
 
           <div>
@@ -362,6 +390,14 @@ export default function ResumePage() {
                 control and project coordination.
               </li>
             </ul>
+            <a
+              href="https://github.com/adrimivas/salvage_reseller"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block underline font-medium"
+            >
+              View GitHub Repository
+            </a>
           </div>
 
           <div>
@@ -377,6 +413,14 @@ export default function ResumePage() {
                 to organize development.
               </li>
             </ul>
+            <a
+              href="https://github.com/adrimivas/appdev_final"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block underline font-medium"
+            >
+              View GitHub Repository
+            </a>
           </div>
         </div>
       </section>

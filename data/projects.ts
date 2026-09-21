@@ -9,6 +9,7 @@ export type Project = {
   status: "Completed" | "In Progress" | "Planned";
   imageFit?: "contain" | "cover";
   pdf?: string;
+  gallery?: string[];
 };
 
 export const projects: Project[] = [
@@ -40,7 +41,7 @@ export const projects: Project[] = [
       "My second summer program: hands-on experience at Stratolaunch, a hypersonic flight-test accelerator at the Mojave Air and Space Port.",
     longDescription:
       "For my second summer program, I took part in a program at Stratolaunch, a technology accelerator focused on hypersonic flight testing based at the Mojave Air and Space Port. The experience gave me hands-on exposure to real-world aerospace engineering, data systems, and operations in a fast-paced technical environment, and the chance to learn alongside a talented group of peers. It strengthened my interest in applying computer science and data skills to complex, mission-driven engineering problems.",
-    image: "/stratolaunch.jpg",
+    image: "/stratolaunch.jpeg",
     techStack: [
       "Aerospace",
       "Data Systems",
@@ -80,7 +81,7 @@ export const projects: Project[] = [
       "My first summer program: a hands-on data analytics workshop focused on dashboards, data cleaning, visualization, and analytical storytelling.",
     longDescription:
       "The Data Analytics Workshop was my first summer program, where I worked as a Data Analyst Trainee and gained hands-on experience with data cleaning, dashboard development, visualization, research communication, and analytical presentation. I built 10+ interactive Tableau and Excel dashboards and used SQL and Python to clean, validate, and analyze datasets, and applied EDA, preprocessing, and statistical analysis across 20+ analytical projects. This experience strengthened my interest in data analytics and helped me build practical skills connected to real-world data work.",
-    image: "/dataWorkshop2.jpg",
+    image: "/dataWorkshop.jpg",
     techStack: [
       "Data Analytics",
       "Data Cleaning",
@@ -150,5 +151,25 @@ export const projects: Project[] = [
     status: "Completed",
     imageFit: "contain",
     pdf: "/humanoid.pdf",
+  },
+  {
+    slug: "ripeness-bench",
+    title: "Ripeness Bench",
+    description:
+      "An agentic computer-vision system that analyzes fruit ripeness from a single image and generates individualized recommendations.",
+    longDescription:
+      "Ripeness Bench is a collaborative agentic computer-vision project. I built a system using specialized detection, ripeness, and recommendation agents to analyze two fruits from a single image and generate individualized recommendations. It supports both offline rule-based vision and AI vision modes, integrates Raspberry Pi image capture and a web interface, and logs scan results for evaluation and future analysis. Tap through the screenshots below to see the interface and results in action.",
+    image: "/ripeness.PNG",
+    gallery: ["/ripeness.PNG", "/ripeness2.PNG"],
+    techStack: [
+      "Computer Vision",
+      "Agentic AI",
+      "Python",
+      "Raspberry Pi",
+      "Web Interface",
+    ],
+    github: "https://github.com/brendaMurillo/agenticFruitDetection",
+    status: "Completed",
+    imageFit: "contain",
   },
 ];

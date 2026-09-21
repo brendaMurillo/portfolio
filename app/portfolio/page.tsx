@@ -10,8 +10,9 @@ export default function PortfolioPage() {
       if (slug === "predicting-employee-turnover") return 4;
       if (slug === "salvage-reseller") return 5;
       if (slug === "money-app") return 6;
-      if (slug === "secondary-analysis-research-paper") return 7;
-      if (slug === "humanoid-robot") return 8;
+      if (slug === "ripeness-bench") return 7;
+      if (slug === "secondary-analysis-research-paper") return 8;
+      if (slug === "humanoid-robot") return 9;
       return 99;
     };
 

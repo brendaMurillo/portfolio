@@ -26,7 +26,11 @@ export default function AboutPage() {
         </p>
 
         <div className="mt-8">
-          <a href="/resume.pdf" download className="underline font-medium">
+          <a
+            href="/B.Murillo-Resume.pdf"
+            download
+            className="underline font-medium"
+          >
             Download Resume (PDF)
           </a>
         </div>
