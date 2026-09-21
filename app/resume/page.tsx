@@ -200,21 +200,26 @@ export default function ResumePage() {
 
           <div>
             <h3 className="text-xl font-medium">
-              Stratolaunch &mdash; Summer Program Participant
+              Summer Bridge Program &mdash; CSU Bakersfield
             </h3>
             <p className="mt-2 opacity-90">
-              Mojave, CA | Summer 2026
+              Bakersfield, CA | Summer 2026
             </p>
             <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
               <li>
-                Participated in a summer program at Stratolaunch, a hypersonic
-                flight-test technology accelerator based at the Mojave Air and
-                Space Port.
+                Completed an artificial intelligence program covering local
+                LLMs, AI agents, agentic AI, computer vision, and embedded
+                systems.
               </li>
               <li>
-                Gained hands-on exposure to real-world aerospace engineering,
-                data systems, and operations in a fast-paced technical
-                environment.
+                Developed PrepPal, an AI-powered academic assistant, and The
+                Agent Coach, an agentic AI study companion, applying RAG,
+                multi-tool orchestration, and local models.
+              </li>
+              <li>
+                Built Ripeness Bench, an agentic computer-vision app that
+                estimates and compares the ripeness of two fruits from a single
+                photo and generates individualized recommendations.
               </li>
             </ul>
           </div>
@@ -348,21 +353,16 @@ export default function ResumePage() {
             <p className="mt-2 opacity-90">Independent Project</p>
             <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
               <li>
-                Built a private AI study companion in Python using local models
-                through Ollama, LangChain/LangGraph, and Gradio, with custom
-                tools for course Q&amp;A, GPA calculation, math, and web/arXiv
-                search, plus full tool-call tracing.
+                Built a private AI study companion in Python using local Ollama
+                models, LangChain/LangGraph, and Gradio, with custom tools for
+                course Q&amp;A (RAG over an ingested syllabus), GPA, math, and
+                web/arXiv search, plus tool-call tracing.
               </li>
               <li>
-                Implemented RAG over an ingested course syllabus with local
-                embeddings, LangGraph conversation and semantic memory, and
-                multi-tool orchestration.
-              </li>
-              <li>
-                Used the project as an experimentation ground to test how
-                different architectures and design choices affect an
-                assistant&rsquo;s capabilities, running side-by-side comparisons
-                across multiple models, embeddings, and tokenization.
+                Used it as an experimentation ground to test how architecture
+                and design choices affect capabilities, comparing multiple
+                models, embeddings, and tokenization with LangGraph conversation
+                and semantic memory.
               </li>
             </ul>
             <a

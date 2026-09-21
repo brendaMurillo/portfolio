@@ -35,24 +35,6 @@ export const projects: Project[] = [
     imageFit: "cover",
   },
   {
-    slug: "stratolaunch-summer-program",
-    title: "Stratolaunch Summer Program",
-    description:
-      "My second summer program: hands-on experience at Stratolaunch, a hypersonic flight-test accelerator at the Mojave Air and Space Port.",
-    longDescription:
-      "For my second summer program, I took part in a program at Stratolaunch, a technology accelerator focused on hypersonic flight testing based at the Mojave Air and Space Port. The experience gave me hands-on exposure to real-world aerospace engineering, data systems, and operations in a fast-paced technical environment, and the chance to learn alongside a talented group of peers. It strengthened my interest in applying computer science and data skills to complex, mission-driven engineering problems.",
-    image: "/stratolaunch.jpeg",
-    techStack: [
-      "Aerospace",
-      "Data Systems",
-      "Engineering Operations",
-      "Teamwork",
-    ],
-    github: "",
-    status: "Completed",
-    imageFit: "cover",
-  },
-  {
     slug: "predicting-employee-turnover",
     title: "Predicting Employee Turnover",
     description:
@@ -159,7 +141,7 @@ export const projects: Project[] = [
       "An agentic computer-vision system that analyzes fruit ripeness from a single image and generates individualized recommendations.",
     longDescription:
       "Ripeness Bench is a collaborative agentic computer-vision project. I built a system using specialized detection, ripeness, and recommendation agents to analyze two fruits from a single image and generate individualized recommendations. It supports both offline rule-based vision and AI vision modes, integrates Raspberry Pi image capture and a web interface, and logs scan results for evaluation and future analysis. Tap through the screenshots below to see the interface and results in action.",
-    image: "/ripeness.PNG",
+    image: "/stratolaunch.jpeg",
     gallery: ["/ripeness.PNG", "/ripeness2.PNG"],
     techStack: [
       "Computer Vision",

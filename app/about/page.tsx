@@ -120,10 +120,12 @@ export default function AboutPage() {
         </p>
 
         <p className="mt-6 opacity-90 leading-relaxed">
-          I have also completed two summer programs: a Data Analytics Workshop,
-          where I built dashboards and analyzed real datasets, and a program at
-          Stratolaunch at the Mojave Air and Space Port, which gave me hands-on
-          exposure to real-world aerospace engineering and data systems.
+          I have also completed two summer programs at CSU Bakersfield: a
+          month-long Data Analysis Workshop, where I built a machine learning
+          project predicting employee turnover, and an AI-focused Summer Bridge
+          Program covering local LLMs, AI agents, agentic AI, computer vision,
+          and embedded systems, where I built PrepPal, The Agent Coach, and
+          Ripeness Bench.
         </p>
       </section>
     </div>

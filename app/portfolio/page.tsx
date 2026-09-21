@@ -5,15 +5,14 @@ export default function PortfolioPage() {
   const orderedProjects = projects.sort((a, b) => {
     const priority = (slug: string) => {
       if (slug === "lets-talk-legal-chatbot") return 1;
-      if (slug === "stratolaunch-summer-program") return 2;
-      if (slug === "data-analytics-workshop") return 3;
-      if (slug === "predicting-employee-turnover") return 4;
-      if (slug === "salvage-reseller") return 5;
-      if (slug === "money-app") return 6;
-      if (slug === "ripeness-bench") return 7;
-      if (slug === "the-agent-coach") return 8;
-      if (slug === "secondary-analysis-research-paper") return 9;
-      if (slug === "humanoid-robot") return 10;
+      if (slug === "data-analytics-workshop") return 2;
+      if (slug === "predicting-employee-turnover") return 3;
+      if (slug === "salvage-reseller") return 4;
+      if (slug === "money-app") return 5;
+      if (slug === "ripeness-bench") return 6;
+      if (slug === "the-agent-coach") return 7;
+      if (slug === "secondary-analysis-research-paper") return 8;
+      if (slug === "humanoid-robot") return 9;
       return 99;
     };
 

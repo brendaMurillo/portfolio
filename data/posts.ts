@@ -30,18 +30,19 @@ export const posts: Post[] = [
     ],
   },
   {
-    slug: "stratolaunch-summer-program",
-    title: "My Summer at Stratolaunch",
+    slug: "csub-summer-programs",
+    title: "My Two Summer Programs at CSUB",
     category: "Experience",
     date: "August 2026",
-    readTime: "3 min read",
+    readTime: "4 min read",
     excerpt:
-      "A reflection on my second summer program at Stratolaunch, a hypersonic flight-test accelerator at the Mojave Air and Space Port.",
+      "Reflecting on the Data Analysis Workshop and the AI-focused Summer Bridge Program at CSU Bakersfield that helped me grow technically and personally.",
     content: [
-      "For my second summer program, I had the opportunity to take part in a program at Stratolaunch, a technology accelerator focused on hypersonic flight testing based at the Mojave Air and Space Port.",
-      "The experience gave me hands-on exposure to real-world aerospace engineering, data systems, and operations in a fast-paced technical environment.",
-      "I especially valued learning alongside a talented group of peers and seeing how computer science and data skills apply to complex, mission-driven engineering problems.",
-      "This program strengthened my interest in working on challenging technical problems and reinforced how much I enjoy learning in collaborative, real-world settings.",
+      "As summer comes to a close, I'm grateful to reflect on my experiences in the Data Analysis Workshop and Summer Bridge Program at California State University, Bakersfield that helped me grow both technically and personally!",
+      "During my first month-long program, I completed a machine learning and data analytics project focused on predicting employee turnover. This experience strengthened my ability to analyze data, recognize meaningful patterns, and apply machine learning to a real-world problem.",
+      "My second program focused on artificial intelligence, including local LLMs, AI agents, agentic AI, computer vision, and embedded systems. During this program, I developed PrepPal, an AI-powered academic assistant that helps students understand concepts, plan their studying, manage academic stress, and practice skills through personalized guidance.",
+      "I also created Ripeness Bench, a fruit-ripeness detection app that analyzes a photo of two fruits, estimates the ripeness of each one, and determines which is riper. It then provides individual recommendations, such as eating the fruit, using it for jam or banana bread, or instructions on how to ripen.",
+      "I'm incredibly thankful to my professors for their guidance and support, as well as for all the new people I met along the way. I'm excited to continue learning and building upon these experiences!",
     ],
   },
   {

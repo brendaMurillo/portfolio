@@ -9,6 +9,10 @@ export default function HomePage() {
 
   const images = [
     {
+      src: "/IMG_1092.jpg",
+      alt: "Brenda Viviana Murillo at CSUB",
+    },
+    {
       src: "/roboclub.jpg",
       alt: "CSUB Antelope Valley Robotics Club group photo",
     },
@@ -17,16 +21,8 @@ export default function HomePage() {
       alt: "Tony Pi humanoid robot",
     },
     {
-      src: "/IMG_1092.jpg",
-      alt: "Brenda Viviana Murillo",
-    },
-    {
       src: "/presentation.png",
       alt: "Brenda Viviana Murillo presentation photo",
-    },
-    {
-      src: "/stratolaunch.jpeg",
-      alt: "Stratolaunch summer program group photo at the Mojave Air and Space Port",
     },
     {
       src: "/dataWorkshop.jpg",
