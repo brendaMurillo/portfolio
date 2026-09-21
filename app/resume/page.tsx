@@ -8,7 +8,7 @@ export default function ResumePage() {
 
         <div className="mt-6">
           <a href="/resume.pdf" download className="underline font-medium">
-            Download Condensed Resume (PDF)
+            Download Resume (PDF)
           </a>
         </div>
 
@@ -42,13 +42,14 @@ export default function ResumePage() {
 
         <p className="mt-6 opacity-90 leading-relaxed text-center">
           Computer Science student at California State University, Bakersfield
-          with experience in data analytics, AI data evaluation, statistical
-          modeling, dashboard development, database systems, research, and
-          software projects. Skilled in Python, SQL, R, Excel, Tableau, Java,
-          JavaScript, and PHP, with hands-on experience cleaning datasets,
-          analyzing trends, building visualizations, engineering predictive
-          features, and supporting machine learning workflows.
-          Seeking data analyst, data science, or machine learning internship
+          (GPA 3.65/4.0, expected May 2027) with experience across AI/software
+          development, data analytics, machine learning research, and
+          full-stack projects. Skilled in Python, SQL, R, and TypeScript, with
+          hands-on work in machine learning, computer vision, LLM/RAG and
+          agentic AI workflows, dashboard development, and database systems.
+          Currently building an AI-powered co-parenting communication platform
+          and co-author on IEEE-published computer-vision research. Seeking
+          data science, machine learning, or software engineering internship
           opportunities.
         </p>
       </section>
@@ -60,40 +61,40 @@ export default function ResumePage() {
 
         <div className="mt-6 grid gap-6 md:grid-cols-2">
           <div>
-            <h3 className="text-xl font-medium">Programming Languages</h3>
+            <h3 className="text-xl font-medium">Programming</h3>
+            <p className="mt-2 opacity-90">Python, SQL, R, TypeScript</p>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-medium">
+              Machine Learning &amp; Data Science
+            </h3>
             <p className="mt-2 opacity-90">
-              Python, SQL, R, Java, JavaScript, C, PHP
+              scikit-learn, XGBoost, pandas, NumPy, feature engineering, model
+              tuning, model evaluation, statistical analysis
             </p>
           </div>
 
           <div>
-            <h3 className="text-xl font-medium">Data Science & Analytics</h3>
+            <h3 className="text-xl font-medium">AI</h3>
             <p className="mt-2 opacity-90">
-              Data cleaning, data visualization, statistical analysis, EDA,
-              regression, clustering, predictive modeling, feature engineering,
-              hypothesis testing, model evaluation
+              Computer Vision, LLMs, RAG, Agentic AI, LangGraph, Chroma,
+              Multimodal AI
             </p>
           </div>
 
           <div>
-            <h3 className="text-xl font-medium">Libraries & Frameworks</h3>
+            <h3 className="text-xl font-medium">Databases &amp; Development</h3>
             <p className="mt-2 opacity-90">
-              pandas, NumPy, scikit-learn, XGBoost, Matplotlib, OpenCV, dplyr,
-              ggplot2, React Native
+              PostgreSQL, MySQL, MongoDB, Supabase, React Native, Git/GitHub,
+              Gradio
             </p>
           </div>
 
           <div>
-            <h3 className="text-xl font-medium">Tools & Technologies</h3>
+            <h3 className="text-xl font-medium">Visualization</h3>
             <p className="mt-2 opacity-90">
-              Tableau, Excel, GitHub, VS Code, MySQL, MariaDB, MongoDB
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-medium">Business Software</h3>
-            <p className="mt-2 opacity-90">
-              Microsoft Word, Excel, PowerPoint
+              Tableau, Matplotlib, Excel, ggplot2
             </p>
           </div>
 
@@ -119,15 +120,14 @@ export default function ResumePage() {
               Bachelor of Science in Computer Science
             </p>
             <p className="opacity-90">
-              GPA: 3.65/4.0 | August 2025 – May 2027 Expected
+              GPA: 3.65/4.0 | Expected May 2027
             </p>
             <p className="mt-2 opacity-90 leading-relaxed">
-              Relevant coursework includes Artificial Intelligence, Database
-              Systems, Software Engineering, Data Structures, Linear Algebra,
-              and App Development.
+              Leadership: Vice President, Robotics Club | MESA Mentor.
             </p>
             <p className="mt-2 opacity-90 leading-relaxed">
-              Activity: Vice President, Robotics Club.
+              Relevant coursework: Artificial Intelligence, Linear Algebra,
+              Database Systems, Data Structures, Algorithm Analysis.
             </p>
           </div>
 
@@ -149,60 +149,97 @@ export default function ResumePage() {
         <div className="mt-6 space-y-8">
           <div>
             <h3 className="text-xl font-medium">
-              Data Analyst Workshop — Data Analyst Trainee
+              Let&rsquo;s Talk &mdash; AI/Software Developer
             </h3>
             <p className="mt-2 opacity-90">
-              Lancaster, CA | June 2026 
+              Industry-Sponsored Senior Capstone | Remote | August 2026 &ndash;
+              Present
             </p>
             <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
               <li>
-                Create 10+ dashboards and visualizations using Tableau and
-                Excel to communicate key insights.
+                Developing a secure co-parenting communication platform using
+                React Native, TypeScript, Supabase, and PostgreSQL, with
+                real-time messaging, authentication, and family-based account
+                linking.
               </li>
               <li>
-                Use SQL and Python to clean, validate, and analyze datasets for
-                trends and decision-making.
+                Implementing database-level authorization with PostgreSQL Row
+                Level Security (RLS) and immutable message history to protect
+                sensitive communications and support future court-aligned
+                records.
               </li>
               <li>
-                Perform data preprocessing and validation across 20+ workshop
-                exercises using Python, NumPy, and pandas.
-              </li>
-              <li>
-                Identify and correct inconsistencies to improve dataset quality
-                and analysis reliability.
-              </li>
-              <li>
-                Analyze datasets with 15000+ records using Excel, SQL, and Python
-                to identify trends.
+                Contributing to AI-powered de-escalation and a legal Q&amp;A
+                chatbot using LLM/RAG workflows, including neutral message
+                rewording and source-grounded responses over curated legal
+                information.
               </li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-xl font-medium">
-              Handshake AI — AI Data Evaluator
+              Handshake AI &mdash; AI Data Evaluator
             </h3>
-            <p className="mt-2 opacity-90">Remote | February 2026 – Present</p>
+            <p className="mt-2 opacity-90">Remote | February 2026 &ndash; Present</p>
             <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
               <li>
-                Evaluate multi-format datasets, including text, audio, and
-                visual content, to support machine learning model training.
+                Evaluated text, image, and audio datasets to improve machine
+                learning training quality.
               </li>
               <li>
-                Contribute to data validation processes that ensure consistency
-                and accuracy across training inputs.
-              </li>
-              <li>
-                Validate annotations and identify inconsistencies to support
+                Validated annotations and identified inconsistencies to support
                 high-quality AI model development.
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-xl font-medium">Jamba Juice — Manager</h3>
+            <h3 className="text-xl font-medium">
+              Stratolaunch &mdash; Summer Program Participant
+            </h3>
             <p className="mt-2 opacity-90">
-              Palmdale, CA | October 2022 – Present
+              Mojave, CA | Summer 2026
+            </p>
+            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
+              <li>
+                Participated in a summer program at Stratolaunch, a hypersonic
+                flight-test technology accelerator based at the Mojave Air and
+                Space Port.
+              </li>
+              <li>
+                Gained hands-on exposure to real-world aerospace engineering,
+                data systems, and operations in a fast-paced technical
+                environment.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-medium">
+              Data Analyst Workshop &mdash; Data Analyst Trainee
+            </h3>
+            <p className="mt-2 opacity-90">
+              Lancaster, CA | June 2026
+            </p>
+            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
+              <li>
+                Built 10+ interactive Tableau and Excel dashboards; used SQL and
+                Python to clean, validate, and analyze datasets for trends and
+                decision-making.
+              </li>
+              <li>
+                Applied EDA, preprocessing, and statistical analysis across 20+
+                analytical projects, improving data quality and communicating
+                findings through visualizations.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-medium">Jamba Juice &mdash; Manager</h3>
+            <p className="mt-2 opacity-90">
+              Palmdale, CA | October 2022 &ndash; Present
             </p>
             <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
               <li>
@@ -212,10 +249,6 @@ export default function ResumePage() {
               <li>
                 Troubleshoot store system issues, including offline connection
                 failures and transaction reporting errors.
-              </li>
-              <li>
-                Manage financial data including cash deposits and daily
-                reporting for upper management.
               </li>
               <li>
                 Lead team coordination, shift workflow, and process improvements
@@ -228,23 +261,82 @@ export default function ResumePage() {
 
       <section className="card max-w-4xl w-full">
         <h2 className="text-2xl font-semibold text-center">
-          Technical Projects
+          Research &amp; Machine Learning Projects
         </h2>
 
         <div className="mt-6 space-y-8">
           <div>
             <h3 className="text-xl font-medium">
-              Vehicle Emissions Data Analysis
+              Adaptive and Explainable Ball Tracking
             </h3>
-            <p className="mt-2 opacity-90">Independent data analytics project</p>
+            <p className="mt-2 opacity-90">IEEE MIUCC 2026 | Co-author</p>
             <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
               <li>
-                Analyzed 43,000+ vehicle records using correlation,
-                chi-square, regression, and other statistical methods.
+                Co-authored IEEE-published computer-vision research using CLAHE,
+                LAB segmentation, contour validation, motion stability, and
+                confidence-based decision-making to improve humanoid robot
+                tracking under varying lighting and distance conditions.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-medium">
+              Predicting Employee Turnover Using Machine Learning
+            </h3>
+            <p className="mt-2 opacity-90">
+              Research Project | Manuscript in Preparation
+            </p>
+            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
+              <li>
+                Developed and compared Logistic Regression, Random Forest, and
+                XGBoost models using a dataset of 15,000+ employee records;
+                performed preprocessing, feature engineering, and hyperparameter
+                tuning.
               </li>
               <li>
-                Created data visualizations in Excel to identify emission
-                trends, correlations, and key environmental factors.
+                Evaluated model performance using ROC-AUC, precision, recall,
+                F1-score, and confusion matrices.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-medium">
+              Ripeness Bench &mdash; Computer Vision &amp; Agentic AI
+            </h3>
+            <p className="mt-2 opacity-90">Collaborative Project</p>
+            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
+              <li>
+                Built an agentic computer-vision system using specialized
+                detection, ripeness, and recommendation agents to analyze two
+                fruits from a single image and generate individualized
+                recommendations.
+              </li>
+              <li>
+                Implemented both offline rule-based vision and AI vision modes,
+                integrated Raspberry Pi image capture and a web interface, and
+                logged scan results for evaluation and future analysis.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-medium">
+              PrepPal &mdash; AI Academic Assistant
+            </h3>
+            <p className="mt-2 opacity-90">Independent Project</p>
+            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
+              <li>
+                Developed an agentic AI academic assistant with web and arXiv
+                search, calculation, GPA analysis, and RAG-based retrieval over
+                student documents to provide personalized academic support.
+              </li>
+              <li>
+                Implemented conversational and semantic memory using LangGraph
+                and Chroma, with embedding-based retrieval, tool-input
+                guardrails, tool-call logging, and an interactive Gradio
+                interface.
               </li>
             </ul>
           </div>
@@ -266,57 +358,8 @@ export default function ResumePage() {
                 customer purchasing functionality.
               </li>
               <li>
-                Developed an administrative dashboard for inventory updates and
-                operational analytics.
-              </li>
-              <li>
                 Collaborated in a team environment using GitHub for version
                 control and project coordination.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-medium">
-              Predicting Employee Turnover Using Machine Learning
-            </h3>
-            <p className="mt-2 opacity-90">
-              SIGTSE paper in preparation
-            </p>
-            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
-              <li>
-                Developed Logistic Regression, Random Forest, and XGBoost
-                models on a 15,000+ record employee dataset.
-              </li>
-              <li>
-                Engineered predictive features and tuned hyperparameters to
-                improve model performance.
-              </li>
-              <li>
-                Evaluated models using ROC-AUC, precision, recall, F1-score,
-                and confusion matrices.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-medium">
-              Statistical Data Analysis in R
-            </h3>
-            <p className="mt-2 opacity-90">Ongoing analytics project</p>
-            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
-              <li>
-                Perform exploratory data analysis using R for data cleaning,
-                transformation, and visualization.
-              </li>
-              <li>
-                Build data pipelines to process and analyze datasets using
-                statistical techniques.
-              </li>
-              <li>
-                Apply regression and clustering techniques, including k-means
-                and hierarchical clustering, to analyze patterns and support
-                insights.
               </li>
             </ul>
           </div>
@@ -326,66 +369,12 @@ export default function ResumePage() {
             <p className="mt-2 opacity-90">Collaborative software project</p>
             <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
               <li>
-                Help develop a financial decision-support app that compares debt
-                payoff versus investing.
+                Helped develop a financial decision-support app that compares
+                debt payoff versus investing.
               </li>
               <li>
-                Collaborate using shared documents, Discord, and a Gantt chart
+                Collaborated using shared documents, Discord, and a Gantt chart
                 to organize development.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-medium">
-              Online Shopping Cart Simulator
-            </h3>
-            <p className="mt-2 opacity-90">
-              Final project for Programming Languages
-            </p>
-            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
-              <li>
-                Designed and implemented an object-oriented shopping cart using
-                inheritance and polymorphism.
-              </li>
-              <li>
-                Built dynamic customer filtering based on a provided budget.
-              </li>
-              <li>
-                Added shipping cost functionality through method-based logic.
-              </li>
-              <li>Presented the project through an oral walkthrough.</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-medium">UCRL Showcase</h3>
-            <p className="mt-2 opacity-90">Project presentation</p>
-            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
-              <li>Presented to 50+ students and faculty about an IoT project.</li>
-              <li>Demonstrated a smart watering system using ESP32.</li>
-              <li>
-                Explained real-time data monitoring and control through a web
-                interface.
-              </li>
-              <li>
-                Designed a device that utilizes an API to provide plant
-                identification.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-medium">Humanoid Robot Research</h3>
-            <p className="mt-2 opacity-90">Collaborative research project</p>
-            <ul className="mt-3 list-disc pl-6 opacity-90 leading-relaxed">
-              <li>
-                Contribute to a humanoid robotics paper focused on research,
-                technical writing, and project development.
-              </li>
-              <li>
-                Collaborate through shared Word documents and Discord to draft,
-                revise, and organize project ideas.
               </li>
             </ul>
           </div>

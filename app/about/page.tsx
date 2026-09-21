@@ -13,11 +13,12 @@ export default function AboutPage() {
         </p>
 
         <p className="mt-6 opacity-90 leading-relaxed">
-          I have hands-on experience with Python, SQL, R, Java, JavaScript,
-          Tableau, Excel, database systems, statistical analysis, dashboard
-          development, and machine learning workflows. Through academic
-          projects, research, and data-focused experience, I enjoy turning
-          datasets into clear insights and practical solutions.
+          I have hands-on experience with Python, SQL, R, and TypeScript, along
+          with machine learning, computer vision, LLM/RAG and agentic AI
+          workflows, database systems, dashboard development, and full-stack
+          development using React Native, Supabase, and PostgreSQL. Through
+          academic projects, research, and industry-sponsored work, I enjoy
+          turning data and ideas into clear insights and practical solutions.
         </p>
 
         <p className="mt-6 opacity-90">
@@ -92,10 +93,33 @@ export default function AboutPage() {
         <h2 className="text-2xl font-semibold">Leadership & Activities</h2>
 
         <p className="mt-6 opacity-90 leading-relaxed">
-          I serve as Vice President of the Robotics Club, where I collaborate
-          with other students on technical projects, research ideas, and
-          hands-on development. I value teamwork, communication, technical
+          I serve as Vice President of the Robotics Club and as a MESA Mentor,
+          where I collaborate with other students on technical projects,
+          research ideas, and hands-on development. As Vice President of our
+          AV-Robotics Club, I volunteered at the Red, White & Boom event at
+          Edwards Air Force Base, where our team presented Tony Pi, a humanoid
+          robot, to thousands of attendees and demonstrated programs we
+          developed, including color and face tracking and interactive actions
+          like playing kickball. I value teamwork, communication, technical
           writing, and continuous learning.
+        </p>
+      </section>
+
+      <section className="card max-w-3xl text-center">
+        <h2 className="text-2xl font-semibold">Recent Experience</h2>
+
+        <p className="mt-6 opacity-90 leading-relaxed">
+          I am currently an AI/Software Developer on Let&rsquo;s Talk, an
+          industry-sponsored senior capstone building a secure co-parenting
+          communication platform with real-time messaging, secure database
+          design, and a legal question chatbot powered by LLM and RAG workflows.
+        </p>
+
+        <p className="mt-6 opacity-90 leading-relaxed">
+          I have also completed two summer programs: a Data Analytics Workshop,
+          where I built dashboards and analyzed real datasets, and a program at
+          Stratolaunch at the Mojave Air and Space Port, which gave me hands-on
+          exposure to real-world aerospace engineering and data systems.
         </p>
       </section>
     </div>

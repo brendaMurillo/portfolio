@@ -13,6 +13,45 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "lets-talk-legal-chatbot",
+    title: "Let's Talk — Legal Q&A Chatbot",
+    description:
+      "An industry-sponsored senior capstone: a secure co-parenting communication platform with an AI legal question chatbot.",
+    longDescription:
+      "Let's Talk is my industry-sponsored senior capstone, where I work as an AI/Software Developer building a secure co-parenting communication platform using React Native, TypeScript, Supabase, and PostgreSQL, with real-time messaging, authentication, and family-based account linking. I implemented database-level authorization with PostgreSQL Row Level Security (RLS) and immutable message history to protect sensitive communications and support future court-aligned records. As part of the platform, I also built a legal question chatbot along with AI-powered de-escalation features using LLM/RAG workflows, including neutral message rewording and source-grounded responses over curated legal information.",
+    image: "/roboclub.jpg",
+    techStack: [
+      "React Native",
+      "TypeScript",
+      "Supabase",
+      "PostgreSQL",
+      "LLMs",
+      "RAG",
+      "Row Level Security",
+    ],
+    github: "",
+    status: "In Progress",
+    imageFit: "cover",
+  },
+  {
+    slug: "stratolaunch-summer-program",
+    title: "Stratolaunch Summer Program",
+    description:
+      "My second summer program: hands-on experience at Stratolaunch, a hypersonic flight-test accelerator at the Mojave Air and Space Port.",
+    longDescription:
+      "For my second summer program, I took part in a program at Stratolaunch, a technology accelerator focused on hypersonic flight testing based at the Mojave Air and Space Port. The experience gave me hands-on exposure to real-world aerospace engineering, data systems, and operations in a fast-paced technical environment, and the chance to learn alongside a talented group of peers. It strengthened my interest in applying computer science and data skills to complex, mission-driven engineering problems.",
+    image: "/stratolaunch.jpg",
+    techStack: [
+      "Aerospace",
+      "Data Systems",
+      "Engineering Operations",
+      "Teamwork",
+    ],
+    github: "",
+    status: "Completed",
+    imageFit: "cover",
+  },
+  {
     slug: "predicting-employee-turnover",
     title: "Predicting Employee Turnover",
     description:
@@ -36,12 +75,12 @@ export const projects: Project[] = [
   },
   {
     slug: "data-analytics-workshop",
-    title: "CSUB Data Analytics Workshop",
+    title: "Data Analytics Workshop",
     description:
-      "A hands-on data analytics workshop focused on dashboards, data cleaning, visualization, research presentation, and analytical storytelling.",
+      "My first summer program: a hands-on data analytics workshop focused on dashboards, data cleaning, visualization, and analytical storytelling.",
     longDescription:
-      "The CSUB Data Analytics Workshop gave me hands-on experience with data cleaning, dashboard development, visualization, research communication, and analytical presentation. Through the workshop, I practiced using data to identify trends, communicate insights clearly, and present findings in a professional setting. This experience strengthened my interest in data analytics and helped me build practical skills connected to real-world data work.",
-    image: "/dataWorkshop.jpg",
+      "The Data Analytics Workshop was my first summer program, where I worked as a Data Analyst Trainee and gained hands-on experience with data cleaning, dashboard development, visualization, research communication, and analytical presentation. I built 10+ interactive Tableau and Excel dashboards and used SQL and Python to clean, validate, and analyze datasets, and applied EDA, preprocessing, and statistical analysis across 20+ analytical projects. This experience strengthened my interest in data analytics and helped me build practical skills connected to real-world data work.",
+    image: "/dataWorkshop2.jpg",
     techStack: [
       "Data Analytics",
       "Data Cleaning",
