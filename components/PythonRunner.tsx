@@ -63,19 +63,19 @@ sys.stderr = StringIO()
 
   return (
     <div className="w-full">
-      <div className="overflow-hidden rounded-2xl border border-pink-300/40 bg-[#0b1020] shadow-2xl">
-        <div className="flex items-center justify-between gap-4 border-b border-pink-300/20 bg-black px-5 py-3">
-          <p className="font-mono text-sm text-pink-300">
+      <div className="overflow-hidden rounded-2xl border border-pink-300/40 bg-white shadow-2xl">
+        <div className="flex items-center justify-between gap-4 border-b border-pink-300/20 bg-white px-5 py-3">
+          <p className="font-mono text-sm text-pink-500">
             python_playground.py
           </p>
 
-          <p className="font-mono text-sm text-yellow-300">
+          <p className="font-mono text-sm text-pink-500">
             {isReady ? "Ready" : "Loading"}
           </p>
         </div>
 
-        <div className="flex min-h-[160px] bg-[#111827]">
-          <div className="select-none bg-black/40 px-4 py-5 text-right font-mono text-sm leading-7 text-white/35">
+        <div className="flex min-h-[160px] bg-white">
+          <div className="select-none bg-pink-50 px-4 py-5 text-right font-mono text-sm leading-7 text-pink-300">
             {code.split("\n").map((_, index) => (
               <div key={index}>{index + 1}</div>
             ))}
@@ -85,34 +85,34 @@ sys.stderr = StringIO()
             value={code}
             onChange={(e) => setCode(e.target.value)}
             spellCheck={false}
-            className="min-h-[160px] w-full resize-y bg-[#111827] p-5 font-mono text-base leading-7 text-pink-300 outline-none caret-yellow-300"
+            className="min-h-[160px] w-full resize-y bg-white p-5 font-mono text-base leading-7 text-pink-500 outline-none caret-pink-500"
           />
         </div>
 
-        <div className="border-t border-pink-300/20 bg-black px-5 py-4">
+        <div className="border-t border-pink-300/20 bg-white px-5 py-4">
           <button
             type="button"
             onClick={runCode}
             disabled={!isReady}
-            className="rounded-full border border-yellow-300 bg-gradient-to-r from-pink-400 to-yellow-300 px-6 py-3 font-bold text-black transition hover:-translate-y-1 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0"
+            className="rounded-full border border-pink-300 bg-pink-300 px-6 py-3 font-bold text-black transition hover:-translate-y-1 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0"
           >
             {isReady ? "▶ Run Code" : "Loading Python..."}
           </button>
         </div>
       </div>
 
-      <div className="mt-6 overflow-hidden rounded-2xl border border-yellow-300/40 bg-black shadow-xl">
-        <div className="flex items-center justify-between bg-pink-500/20 px-5 py-3">
-          <h3 className="font-mono text-lg font-bold text-yellow-300">
+      <div className="mt-6 overflow-hidden rounded-2xl border border-pink-300/40 bg-white shadow-xl">
+        <div className="flex items-center justify-between bg-pink-50 px-5 py-3">
+          <h3 className="font-mono text-lg font-bold text-pink-500">
             Output
           </h3>
 
-          <span className="rounded-full border border-pink-300/40 px-3 py-1 font-mono text-xs text-pink-300">
+          <span className="rounded-full border border-pink-300/40 px-3 py-1 font-mono text-xs text-pink-500">
             terminal
           </span>
         </div>
 
-        <pre className="min-h-[80px] whitespace-pre-wrap bg-black p-5 font-mono text-base leading-7 text-pink-300">
+        <pre className="min-h-[80px] whitespace-pre-wrap bg-white p-5 font-mono text-base leading-7 text-pink-500">
           {output}
         </pre>
       </div>

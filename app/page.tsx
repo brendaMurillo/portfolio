@@ -92,14 +92,6 @@ export default function HomePage() {
               Python Playground
             </h2>
 
-            <div className="mt-6 flex justify-center">
-              <img
-                src="/python.png"
-                alt="Python programming skills graphic"
-                className="about-photo"
-              />
-            </div>
-
             <p className="mt-4 opacity-90 text-center">
               Edit and run a simple Python program directly in the browser.
             </p>
