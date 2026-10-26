@@ -14,6 +14,21 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "sierra-cyber-summit-hackathon-2026",
+    title: "My First Hackathon: Sierra Cyber Summit 2026",
+    category: "Cybersecurity",
+    date: "October 2026",
+    readTime: "3 min read",
+    excerpt:
+      "Reflecting on the Sierra Cyber Summit, a cybersecurity hackathon in Ridgecrest, where my team and I captured 106 of 127 flags at my very first competition.",
+    content: [
+      "This October 17–18, I competed in the Sierra Cyber Summit 2026, a cybersecurity hackathon held in Ridgecrest, California. As my first-ever hackathon, I'm so glad to have experienced it, learning new things and meeting new people along the way.",
+      "The competition gave me hands-on experience with challenges covering so many different areas of cybersecurity, including web application hacking, cryptography and decryption, red team and blue team concepts, 3D printing, mechatronics, lock picking, command-line tools, networking, and more.",
+      "For my first cybersecurity competition, getting 106 out of 127 flags with my team was an experience I'm proud of. It pushed me to think across a wide range of security topics and work closely with my teammates to solve problems under pressure.",
+      "This experience deepened my interest in cybersecurity and reminded me how much I enjoy learning hands-on, collaborating with others, and tackling unfamiliar challenges head-on.",
+    ],
+  },
+  {
     slug: "lets-talk-legal-chatbot",
     title: "Building a Legal Question Chatbot for Let's Talk",
     category: "Software Development",

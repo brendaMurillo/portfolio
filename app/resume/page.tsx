@@ -6,14 +6,40 @@ export default function ResumePage() {
         <h1 className="text-4xl font-semibold">Resume</h1>
         <p className="mt-4 opacity-90">Brenda Viviana Murillo</p>
 
-        <div className="mt-6">
+        <div className="mt-6 flex flex-wrap justify-center gap-3">
           <a
             href="/B.Murillo-Resume.pdf"
             download
-            className="underline font-medium"
+            className="inline-flex items-center justify-center rounded-xl bg-[var(--c1)] px-5 py-2.5 text-sm font-medium text-[var(--c5)] transition hover:opacity-90"
           >
             Download Resume (PDF)
           </a>
+          <a
+            href="/B.Murillo-Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center justify-center rounded-xl border border-[var(--c2)] px-5 py-2.5 text-sm font-medium text-[var(--c2)] transition hover:bg-[var(--c4)]"
+          >
+            View in New Tab
+          </a>
+        </div>
+
+        <div className="mt-8">
+          <object
+            data="/B.Murillo-Resume.pdf"
+            type="application/pdf"
+            className="w-full rounded-xl border border-white/15"
+            style={{ height: "80vh" }}
+            aria-label="Brenda Murillo resume PDF preview"
+          >
+            <p className="p-6 opacity-90">
+              Your browser can&rsquo;t display the embedded PDF.{" "}
+              <a href="/B.Murillo-Resume.pdf" download className="underline">
+                Download the resume (PDF)
+              </a>{" "}
+              instead.
+            </p>
+          </object>
         </div>
 
         <div className="mt-6 flex flex-wrap justify-center gap-4 text-sm opacity-90">
