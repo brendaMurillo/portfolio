@@ -32,6 +32,10 @@ export default function HomePage() {
       src: "/edwards.jpeg",
       alt: "AV-Robotics Club STEM volunteer table at Edwards Air Force Base Red, White & Boom event",
     },
+    {
+      src: "/techbridge.jpg",
+      alt: "Brenda Viviana Murillo with two others at the Tech Bridge Future Labs event",
+    },
   ];
 
   const handleNextPhoto = () => {
